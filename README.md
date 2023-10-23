@@ -6,7 +6,7 @@
 <p align="center"><b>Version 1.7 </b><br>
 <p align="center">23 Oktober 2023 </b>
 <p align="center">
-<img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
+
 </p>
 
 <p align="center"><b> Sistem Informasi Penerimaan Siswa Baru SMP A-Azhar Syifa Budi Pekanbaru II <br>
