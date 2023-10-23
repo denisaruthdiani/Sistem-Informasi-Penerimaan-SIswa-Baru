@@ -57,7 +57,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelas
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi dibidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari.
-seperti digunakan dalam penerimaan siswa baru SMP Al-Azhar,Proses ini merupakan langkah penting untuk mempermudah dan mempercepat proses penerimaan siswa baru sambil memberikan pengalaman yang baik bagi calon siswa dan orangtua,dan juga sistem ini membantu sekolah dalam pengelolaan data siswa dan komunikasi dengan orang tua secara efisien.berikut adalah sistem penerimaan Al-Azhar:
+Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana website sebagai admin, .berikut adalah sistem penerimaan Al-Azhar:
 1. Pendaftaran Online
 2. Proses seleksi
 3. Pengumuman Hasil
