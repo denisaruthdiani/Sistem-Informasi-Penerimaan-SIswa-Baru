@@ -13,8 +13,8 @@
 </b>
 <p align="center">Kelompok 3 <br>
 Denisa Ruthdiani Siagian    (2257301031)<br>
-Daud Markhesywan    (1603100)<br>
-Desfian Zahta Gunawan   (1603101)<br><br><br>
+Daud Markhesywan    (2257301030)<br>
+Desfian Zahta Gunawan   (2257301032)<br><br><br>
 
 <p align="center"><b>Jurusan Teknik Informasi</b><br>
 <p align="center"><b>Politeknik Caltex Riau</b>
@@ -57,3 +57,19 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelas
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi dibidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari.
+seperti digunakan dalam penerimaan siswa baru SMP Al-Azhar,Proses ini merupakan langkah penting untuk mempermudah dan mempercepat proses penerimaan siswa baru sambil memberikan pengalaman yang baik bagi calon siswa dan orangtua,dan juga sistem ini membantu sekilah dalam pengelolaan data siswa dan komunikasi dengan orang tua secara efisien.berikut adalah sistem penerimaan Al-Azhar:
+1. Pendaftaran Online
+2. Proses seleksi
+3. Pengumuman Hasil
+4. Proses Registrasi
+5. Orientasi Siswa Baru
+6. Pemantauan Akademik
+7. Bimbingan dan Konseling
+8. Pembaruan Informasi
+9. Keamanan Data
+
+Berikut fungsi dalam bentuk grafik :
+
+1. Input A
+
+2.1 Perspektif Produk
