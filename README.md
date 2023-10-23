@@ -70,13 +70,108 @@ seperti digunakan dalam penerimaan siswa baru SMP Al-Azhar,Proses ini merupakan 
 
 Berikut fungsi dalam bentuk grafik :
 
-1. Input A
+1. View Angka Kelahiran
+2. View Biodata
+3. View Agama
+4. View Pendidikan
 
 2.1 Perspektif Produk
 ----------
 Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaitan dengan pengalaman dan layanan yang diberikan kepada calon siswa dan orang tua selama proses penerimaan.Dalam hal ini juga mengacu pada penerimaan siswa baru di Al-Azhar melibatkan penciptaan yang mulus,transparan, dan berorientasi pada kebutuhan siswa dan orang tua,dengan fokus pada kualitas pendidikan dan layanan pelanggan yang unggul.
-sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek dan calon siswa.
+sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek,staf administrasi dan calon siswa.
 
 2.1.1 AntarMuka Sistem
 ----------
+
+2.1.2 Antarmuka Pengguna
+----------
+
+2.1.3 Antarmuka Perangkat Keras
+----------
+
+2.1.4 Antarmuka Perangkat Lunak
+----------
+
+2.1.5 Antarmuka Komunikasi
+
+Antarmuka Komunikasi yang digunakan untuk mengoperasikan penerimaan siswa baru al azhar antara lain :
+  
+-------------
+**2.1.6 Batasan memori**
+-------------
+**2.1.7 Operasi-operasi**
+
+| Operasi | Fungsi |
+| ------ | ------ |
+| Login | Digunakan untuk mengakses aplikasi atau website|
+| Input Data | Digunakan untuk memasukkan data-data |
+| Kembali | Digunakan untuk kembali ke halaman sebelumnya |
+| Hapus | Digunakan untuk menghapus data |
+| Edit | Digunakan untuk mengubah data |
+| View | Digunakan untuk menampilkan data |
+| Simpan | Digunakan untuk menyimpan data |
+| Cetak | Digunakan untuk mencetak laporan |
+
+-----------------
+**2.1.8 Kebutuhan adaptasi**
+-------------
+2.2 Spesifikasi Kebutuhan fungsional
+------------
+**2.2.1 Kepala Desa Login**
+------------
+**2.2.2 Kepala desa melihat laporan kependudukan**
+------------
+**2.2.3 Admin login**
+------------
+**2.2.4 Admin input data kependudukan**
+------------
+**2.2.5 Admin melihat data kependudukan**
+-------------
+**2.2.6 Generate Laporan**
+-------------
+**2.2.7 Admin mengelola user**
+-------------
+2.3   Spesifikasi Kebutuhan non-fungsional
+--------------
+2.4   Karakteristik pengguna
+--------------
+Karakteristik yakni seperti langsung berinteraksi dengan sistem dan bisa juga dengan secara langsung tanpa harus dihubungkan dengan hak akses atau level autentikasi.
+
+2.5   Batasan-batasan
+----------
+2.6   Asumsi-asumsi
+----------
+2.7   Kebutuhan Penyeimbang
+----------
+Tidak Ada
+
+BAB III Requirement specification
+----------
+3.1 Persyaratan Antarmuka Eksternal
+----------
+Salah satu untuk merujuk pada standar dan kriteria yang harus dipenuhi oleh sistem informasi penerimaan siswa agar dapat berinteraksi dengan sistem atau entitas eksternal lainnya. Antarmuka eksternal ini memastikan integrasi yang lancar dengan sistem atau layanan lain yang digunakan oleh calon siswa, orang tua, atau lembaga pendidikan yang terkait.
+
+3.2 Functional Requirement
+----------
+**3.2.1 Kepala desa Login**
+----------
+**3.2.2 Kepala desa melihat laporan kependudukan**
+----------
+**3.2.3 Admin login**
+----------
+**3.2.4 Admin input data kependudukan**
+----------
+**3.2.5 Admin melihat data kependudukan**
+---------
+**3.2.6 Cetak Laporan**
+---------
+**3.2.7  Admin mengelola user**
+---------
+3.3 Struktur Detail Kebutuhan Non-Fungsional
+----------
+**3.3.1 Logika Struktur Data**
+----------
+
+
+
 
