@@ -45,5 +45,14 @@ Sistem Informasi Penerimaan Mahasiswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II 
 
 1.4 Referensi
 ----------
+Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah:
+-
+-
+-
 
+1.5 Overview
+---------
+Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, sistem interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
 
+**BAB II Gambaran umum**
+----------
