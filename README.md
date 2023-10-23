@@ -80,29 +80,35 @@ Berikut fungsi dalam bentuk grafik :
 Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaitan dengan pengalaman dan layanan yang diberikan kepada calon siswa dan orang tua selama proses penerimaan.Dalam hal ini juga mengacu pada penerimaan siswa baru di Al-Azhar melibatkan penciptaan yang mulus,transparan, dan berorientasi pada kebutuhan siswa dan orang tua,dengan fokus pada kualitas pendidikan dan layanan pelanggan yang unggul.
 sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek,staf administrasi dan calon siswa.
 
-2.1.1 AntarMuka Sistem
-----------
+**2.1.1 AntarMuka Sistem**
 
 ![enter image description here]
 (1.jpg).
 
-2.1.2 Antarmuka Pengguna
-----------
+**2.1.2 Antarmuka Pengguna**
 
-2.1.3 Antarmuka Perangkat Keras
-----------
+**2.1.3 Antarmuka Perangkat Keras**
+![enter image description here]
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II antara lain :
 
-2.1.4 Antarmuka Perangkat Lunak
-----------
+1. PC / Laptop
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
 
-2.1.5 Antarmuka Komunikasi
-----------
+**2.1.4 Antarmuka Perangkat Lunak**
 
-Antarmuka Komunikasi yang digunakan untuk mengoperasikan penerimaan siswa baru al azhar antara lain :
-  
--------------
+Tidak ada
+
+**2.1.5 Antarmuka Komunikasi**
+
+Antarmuka Komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II antara lain :
+1. Kabel Lan UTP RJ45
+2. Modem
+3. Wifi
+
 **2.1.6 Batasan memori**
--------------
+
+Tidak ada
+
 **2.1.7 Operasi-operasi**
 
 | Operasi | Fungsi |
@@ -116,38 +122,43 @@ Antarmuka Komunikasi yang digunakan untuk mengoperasikan penerimaan siswa baru a
 | Simpan | Digunakan untuk menyimpan data |
 | Cetak | Digunakan untuk mencetak laporan |
 
------------------
+
 **2.1.8 Kebutuhan adaptasi**
--------------
+
+Tidak ada
+
 2.2 Spesifikasi Kebutuhan fungsional
 ------------
 **2.2.1 Kepala Desa Login**
-------------
+
 **2.2.2 Kepala desa melihat laporan kependudukan**
-------------
+
 **2.2.3 Admin login**
-------------
+
 **2.2.4 Admin input data kependudukan**
-------------
+
 **2.2.5 Admin melihat data kependudukan**
--------------
+
 **2.2.6 Generate Laporan**
--------------
+
 **2.2.7 Admin mengelola user**
--------------
+
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
 2.4   Karakteristik pengguna
 --------------
-Karakteristik yakni seperti langsung berinteraksi dengan sistem dan bisa juga dengan secara langsung tanpa harus dihubungkan dengan hak akses atau level autentikasi.
+Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem dan bisa juga dengan secara langsung tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 
 2.5   Batasan-batasan
 ----------
+- Perangkat lunak web hanya dijalankan di windows (7,8,10). 
+- Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
+  
 2.6   Asumsi-asumsi
 ----------
 2.7   Kebutuhan Penyeimbang
 ----------
-Tidak Ada
+Tidak ada
 
 BAB III Requirement specification
 ----------
@@ -158,23 +169,23 @@ Salah satu untuk merujuk pada standar dan kriteria yang harus dipenuhi oleh sist
 3.2 Functional Requirement
 ----------
 **3.2.1 Kepala desa Login**
-----------
+
 **3.2.2 Kepala desa melihat laporan kependudukan**
-----------
+
 **3.2.3 Admin login**
-----------
+
 **3.2.4 Admin input data kependudukan**
-----------
+
 **3.2.5 Admin melihat data kependudukan**
----------
+
 **3.2.6 Cetak Laporan**
----------
+
 **3.2.7  Admin mengelola user**
----------
+
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-----------
+
 
 
 
