@@ -96,6 +96,7 @@ sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,keps
 ----------
 
 2.1.5 Antarmuka Komunikasi
+----------
 
 Antarmuka Komunikasi yang digunakan untuk mengoperasikan penerimaan siswa baru al azhar antara lain :
   
