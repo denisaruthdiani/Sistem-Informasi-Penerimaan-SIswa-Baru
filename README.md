@@ -1,2 +1,2 @@
-# Sistem-Informasi-Penerimaan-Siswa-Baru-SMP-Al-Azhar-Syifa-Budi-Pekanbaru-II#
+# BAB I Pendahuluan
 #1.1-Tujuan
