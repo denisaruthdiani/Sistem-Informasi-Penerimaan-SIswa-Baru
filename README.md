@@ -84,7 +84,7 @@ sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,keps
 ----------
 
 ![enter image description here]
-(C:\Users\ASUS\Downloads\UseCaseDiagram1).
+(1.jpg).
 
 2.1.2 Antarmuka Pengguna
 ----------
