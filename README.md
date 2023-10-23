@@ -77,4 +77,6 @@ Berikut fungsi dalam bentuk grafik :
 Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaitan dengan pengalaman dan layanan yang diberikan kepada calon siswa dan orang tua selama proses penerimaan.Dalam hal ini juga mengacu pada penerimaan siswa baru di Al-Azhar melibatkan penciptaan yang mulus,transparan, dan berorientasi pada kebutuhan siswa dan orang tua,dengan fokus pada kualitas pendidikan dan layanan pelanggan yang unggul.
 sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek dan calon siswa.
 
-2.1.1 Antar
+2.1.1 AntarMuka Sistem
+----------
+
