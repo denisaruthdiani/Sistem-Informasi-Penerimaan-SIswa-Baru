@@ -66,10 +66,14 @@ seperti digunakan dalam penerimaan siswa baru SMP Al-Azhar,Proses ini merupakan 
 6. Pemantauan Akademik
 7. Bimbingan dan Konseling
 8. Pembaruan Informasi
-9. Keamanan Data
+9. Keamanan Datako
 
 Berikut fungsi dalam bentuk grafik :
 
 1. Input A
 
 2.1 Perspektif Produk
+Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaitan dengan pengalaman dan layanan yang diberikan kepada calon siswa dan orang tua selama proses penerimaan.Dalam hal ini juga mengacu pada penerimaan siswa baru di Al-Azhar melibatkan penciptaan yang mulus,transparan, dan berorientasi pada kebutuhan siswa dan orang tua,dengan fokus pada kualitas pendidikan dan layanan pelanggan yang unggul.
+sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek dan calon siswa.
+
+2.1.1 Antar
