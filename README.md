@@ -132,7 +132,7 @@ Tidak ada
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS 
+   | 2 | Perangkat Lunak dapat dipakai di semua platform OS 
   
 **2.2.1 Kepala Desa Login**
 
