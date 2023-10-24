@@ -66,7 +66,7 @@ Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanba
 6. Pemantauan Akademik
 7. Bimbingan dan Konseling
 8. Pembaruan Informasi
-9. Keamanan Datako
+9. Keamanan Data
 
 Berikut fungsi dalam bentuk grafik :
 
@@ -83,7 +83,7 @@ sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,keps
 **2.1.1 AntarMuka Sistem**
 
 ![enter image description here]
-(1.jpg).
+(https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg).
 
 **2.1.2 Antarmuka Pengguna**
 
