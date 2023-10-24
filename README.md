@@ -81,8 +81,8 @@ Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaita
 sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek,staf administrasi dan calon siswa.
 
 **2.1.1 AntarMuka Sistem**
-
-![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg).
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg)
 
 **2.1.2 Antarmuka Pengguna**
 
