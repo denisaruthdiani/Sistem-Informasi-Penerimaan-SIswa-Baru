@@ -82,8 +82,7 @@ sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,keps
 
 **2.1.1 AntarMuka Sistem**
 
-![enter image description here]
-(https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg).
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg).
 
 **2.1.2 Antarmuka Pengguna**
 
