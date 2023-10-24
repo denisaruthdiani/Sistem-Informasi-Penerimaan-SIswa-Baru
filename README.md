@@ -81,13 +81,12 @@ Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaita
 sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek,staf administrasi dan calon siswa.
 
 **2.1.1 AntarMuka Sistem**
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg)
 
 **2.1.2 Antarmuka Pengguna**
 
 **2.1.3 Antarmuka Perangkat Keras**
-![enter image description here]
+![enter image description here] 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II antara lain :
 
 1. PC / Laptop
@@ -128,6 +127,13 @@ Tidak ada
 
 2.2 Spesifikasi Kebutuhan fungsional
 ------------
+- Tabel Kebutuhan Non-Fungsional 
+
+   | No | Deskripsi |
+   | ------ | ------ |
+   | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS 
+  
 **2.2.1 Kepala Desa Login**
 
 **2.2.2 Kepala desa melihat laporan kependudukan**
