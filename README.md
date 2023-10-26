@@ -86,7 +86,7 @@ sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,keps
 **2.1.2 Antarmuka Pengguna**
 
 **2.1.3 Antarmuka Perangkat Keras**
-![enter image description here] 
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/antarmukaperangkatkeras.drawio.png)
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II antara lain :
 
 1. PC / Laptop
