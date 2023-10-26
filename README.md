@@ -40,8 +40,8 @@ Sistem Informasi Penerimaan Mahasiswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II 
 | ------ | ------ |
 | SRS |Software Requirement Specification|
 | Login | Digunakan untuk mengakses aplikasi |
-| Software Requirement Specification | perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna |
-| Use Case | situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda |
+| Software Requirement Specification | Perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna |
+| Use Case | Situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda |
 
 1.4 Referensi
 ----------
@@ -57,7 +57,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelas
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi dibidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari.
-Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana website sebagai admin, .berikut adalah sistem penerimaan Al-Azhar:
+Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana website sebagai admin, panitia PSB dan calon siswa. Sistem yang kami buat di dalamnya terdapat berikut adalah sistem penerimaan Al-Azhar:
 1. Pendaftaran Online
 2. Proses seleksi
 3. Pengumuman Hasil
@@ -68,17 +68,17 @@ Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanba
 8. Pembaruan Informasi
 9. Keamanan Data
 
-Berikut fungsi dalam bentuk grafik :
+Berikut ini fungsi user dalam bentuk grafik :
 
-1. View Angka Kelahiran
-2. View Biodata
-3. View Agama
-4. View Pendidikan
+1. Isi biodata
+2. 
+3. 
+4. 
 
 2.1 Perspektif Produk
 ----------
-Konteks penerimaan mahasiswa baru di Al-Azhar mencakup semua aspek yang berkaitan dengan pengalaman dan layanan yang diberikan kepada calon siswa dan orang tua selama proses penerimaan.Dalam hal ini juga mengacu pada penerimaan siswa baru di Al-Azhar melibatkan penciptaan yang mulus,transparan, dan berorientasi pada kebutuhan siswa dan orang tua,dengan fokus pada kualitas pendidikan dan layanan pelanggan yang unggul.
-sebuah sistem administrasi data yang diaplikasikan pada website yakni admin,kepsek,staf administrasi dan calon siswa.
+Sistem Informasi Penerimaan Siswa Baru adalah sebuah sistem administrasi data yang diaplikasikan pada website. Terdapat 2 jenis yaitu panitia PSB dan calon siswa. Pengolahan data di kelola oleh panitia PSB pada website dan calon siswa hanya bisa melakukan pendaftaran dan registrasi pembayaran.
+Pada sistem informasi penerimaan siswa baru ini akan menampilkan grafik penerimaan siswa yang sudah diinputkan oleh calon siswa.
 
 **2.1.1 Antarmuka Sistem**
 ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/1.jpg)
