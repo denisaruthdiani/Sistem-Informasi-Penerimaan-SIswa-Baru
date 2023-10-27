@@ -130,6 +130,20 @@ Tidak ada
   
 **2.2.1 Panitia PSB Login**
 
+Use Case : Login
+Diagram : ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Untitled%20Diagram.drawio%20(1).png)
+
+Deskripsi Singkat
+Panitia PSB memerlukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal, Panitia PSB dapat mencoba lagi atau mengatur ulang kata sandi jika perlu.
+
+Deskripsi langkah-langkah
+1. Panitia PSB membuka halaman login sistem.
+2. Panitia PSB memasukkan username dan password mereka.
+3. Sistem memeriksa kecocokan informasi login yang dimasukkan dengan data yang ada di basis data.
+4. Jika informasi login benar, sistem memberikan akses penuh ke fitur dan fungsi khusus yang hanya dapat diakses oleh panitia PSB.
+
+Xref: Bagian 3.2.1, Login Panitia PSB
+
 **2.2.2 Panitia PSB melihat laporan kependudukan**
 
 **2.2.3 Calon Siswa login**
