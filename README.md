@@ -166,12 +166,48 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.2, Mengelola Verifikasi Dokumen
 
-**2.2.3 Calon Siswa login**
+**2.2.3 Panitia PSB Seleksi Siswa**
 
+Use Case : Seleksi Siswa
 
-**2.2.4 Calon Siswa input data kependudukan**
+Diagram:
 
-**2.2.5 Admin melihat data kependudukan**
+Deskripsi Singkat
+Seleksi siswa yang dilakukan oleh panitia Penerimaan Siswa Baru (PSB) untuk menentukan apakah calon siswa memenuhi kriteria yang diperlukan untuk diterima dalam sekolah. Tujuannya adalah untuk menilai kemampuan dan kelayakan calon siswa.
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Seleksi Siswa" dalam antarmuka sistem.
+2. Sistem menampilkan daftar calon siswa yang telah melewati tahap verifikasi dokumen.
+3. Panitia PSB meninjau data pendaftaran calon siswa, termasuk hasil tes atau kriteria seleksi yang telah diterapkan.
+4. Panitia PSB menilai calon siswa berdasarkan tes, wawancara, atau kriteria seleksi lainnya.
+5. Panitia PSB memutuskan apakah calon siswa diterima atau ditolak berdasarkan hasil seleksi.
+
+Xref: Bagian 3.2.3, Seleksi Siswa
+
+**2.2.4 Panitia PSB Mengelola Pengumuman Hasil Seleksi**
+
+Use Case : Mengelola Pengumuman Hasil Seleksi
+
+Diagram:
+
+Deskripsi singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola dan mempublikasikan hasil seleksi calon siswa kepada calon siswa dan orang tua/wali. Tujuannya adalah untuk memberikan transparansi dan memberitahu calon siswa tentang status seleksi mereka.
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Hasil Pengumuman Seleksi" dalam antarmuka sistem.
+2. Sistem menampilkan daftar calon siswa yang telah melewati tahap seleksi.
+3. Panitia PSB memasukkan hasil seleksi untuk masing-masing calon siswa, menunjukkan apakah mereka diterima atau ditolak.
+4. Sistem menghasilkan pengumuman hasil seleksi dan mempublikasikannya melalui website atau media lainnya yang dapat diakses oleh calon siswa dan orang tua/wali.
+
+Xref: Bagian 3.2.4, Mengelola Pengumuman Hasil Seleksi
+
+**2.2.5 Panitia PSB Mengelola Data Siswa**
+
+Use Case: Mengelola Data Siswa
+
+Diagram:
+
+Deskripsi singkat
 
 **2.2.6 Generate Laporan**
 
