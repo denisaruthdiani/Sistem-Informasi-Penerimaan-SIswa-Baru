@@ -313,10 +313,14 @@ Use Case : Mengunggah Dokumen Pendaftaran
 Diagram:
 
 Deskripsi singkat
-
+Calon siswa yang sedang mendaftar mengunggah dokumen-dokumen yang diperlukan, seperti akte kelahiran, rapor atau dokumen lainnya sebagai bagian dari proses pendaftaran. Tujuannya adalah untuk memungkinkan calon siswa untuk mengirimkan dan menyimpan dokumen secara elektronik.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa memasuki sistem pendaftaran atau portal penerimaan siswa baru.
+2. Mereka memilih opsi untuk mengunggah dokumen pendaftaran.
+3. Sistem menampilkan daftar dokumen yang diperlukan dan instruksi terkait pengunggahan.
+4. Calon Siswa mengunggah dokumen-dokumen yang diminta melalui antarmuka pengunggahan.
+5. Sistem memeriksa dan mengonfirmasi penerimaan dokumen.
 
 Xref : Bagian 3.2.11, Mengunggah Dokumen Pendaftaran
 
@@ -327,10 +331,13 @@ Use Case : Melihat Status Pendaftaran
 Diagram : 
 
 Deskripsi singkat
-
+Calon siswa yang telah mendaftar dapat memeriksa status pendaftaran mereka, seperti apakah pendaftaran mereka telah diterima, ditolak, atau sedang dalam proses seleksi. Tujuannya adalah untuk memberikan informasi kepada calon siswa tentang perkembangan pendaftaran mereka.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa membuka halaman status pendaftaran di situs web atau aplikasi sekolah.
+2. Mereka memasukkan informasi login yang mereka gunakan saat mendaftar atau nomor referensi pendaftaran.
+3. Sistem memeriksa informasi dan menampilkan status pendaftaran calon siswa.
+4. Calon Siswa dapat melihat apakah pendaftaran mereka diterima, ditolak, atau sedang dalam proses seleksi.
 
 Xref : Bagian 3.2.12, Melihat Status Pendaftaran
 
@@ -341,10 +348,13 @@ Use Case : Melihat Jadwal Seleksi
 Diagram : 
 
 Deskripsi singkat
-
+Calon siswa yang telah mendaftar untuk penerimaan siswa baru dapat melihat jadwal seleksi, termasuk tanggal, waktu, dan lokasi seleksi. Tujuannya adalah untuk memberikan informasi kepada calon siswa tentang kapan dan di mana seleksi akan berlangsung.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa membuka halaman jadwal seleksi di situs web atau aplikasi sekolah.
+2. Mereka dapat memilih program atau tingkat pendidikan yang sesuai untuk melihat jadwal seleksi yang berlaku untuk mereka.
+3. Sistem menampilkan informasi jadwal seleksi, termasuk tanggal, waktu, tempat, dan instruksi terkait.
+   
 Xref : Bagian 3.2.13, Melihat Jadwal Seleksi
 
 **2.2.14 Calon Siswa Melihat Pengumuman Hasil Seleksi**
@@ -354,10 +364,12 @@ Use Case : Melihat Pengumuman Hasil Seleksi
 Diagram:
 
 Deskripsi singkat
-
+Calon siswa yang telah mengikuti seleksi untuk penerimaan siswa baru dapat melihat pengumuman hasil seleksi, yang mencakup apakah mereka diterima, ditolak, atau berada dalam daftar tunggu. Tujuannya adalah untuk memberikan informasi kepada calon siswa tentang hasil seleksi mereka.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa membuka halaman pengumuman hasil seleksi di situs web atau aplikasi sekolah.
+2. Mereka memasukkan informasi login yang mereka gunakan saat mendaftar atau nomor referensi pendaftaran.
+3. Sistem menampilkan hasil seleksi calon siswa, seperti apakah mereka diterima, ditolak, atau berada dalam daftar tunggu.
 
 Xref : Bagian 3.2.14, Melihat Pengumuman Hasil Seleksi
 
@@ -368,10 +380,14 @@ Use Case : Mengunggah Bukti Pembayaran
 Diagram : 
 
 Deskripsi singkat
-
+Calon siswa yang telah diterima dalam proses penerimaan siswa baru dapat mengunggah bukti pembayaran biaya pendaftaran atau biaya lain yang diperlukan sebagai langkah akhir dalam pendaftaran mereka. Tujuannya adalah untuk memastikan bahwa calon siswa telah membayar biaya yang diperlukan sebagai syarat penerimaan.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa membuka halaman pengunggahan bukti pembayaran di website pendaftaran
+2. Mereka memasukkan informasi login atau nomor referensi pendaftaran yang telah diberikan kepada mereka.
+3. Sistem menampilkan informasi tentang biaya yang harus dibayar dan instruksi untuk mengunggah bukti pembayaran.
+4. Calon Siswa mengunggah bukti pembayaran, seperti bukti transfer atau kwitansi pembayaran, melalui antarmuka yang disediakan.
+5. Sistem memverifikasi bukti pembayaran dan mencatat bahwa biaya telah dibayarkan.
 
 Xref : Bagian 3.2.15, Mengunggah Bukti Pembayaran
 
@@ -382,10 +398,13 @@ Use Case : Melihat Informasi Kontak
 Diagram : 
 
 Deskripsi singkat
-
+Calon siswa dapat mengakses informasi kontak sekolah, seperti alamat, nomor telepon, email, atau alamat situs web sekolah. Tujuannya adalah untuk memberikan cara mudah bagi calon siswa dan orang tua/wali untuk menghubungi sekolah jika ada pertanyaan atau keperluan lainnya.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa atau Orang Tua/Wali membuka halaman informasi kontak di situs web atau aplikasi sekolah.
+2. Mereka menelusuri informasi kontak yang tersedia, termasuk alamat sekolah, nomor telepon, email, dan alamat situs web sekolah.
+3. Informasi kontak sekolah dapat digunakan untuk menghubungi sekolah jika ada pertanyaan atau keperluan lainnya.
+   
 Xref : Bagian 3.2.16, Melihat Informasi Kontak
 
 **2.2.17 Calon Siswa Melihat Bantuan Online**
@@ -395,13 +414,14 @@ Use Case : Melihat Bantuan Online
 Diagram : 
 
 Deskripsi singkat
-
+Calon siswa dapat mengakses layanan bantuan online, seperti FAQ (Frequently Asked Questions), panduan, atau chat dukungan, untuk mendapatkan informasi atau bantuan terkait proses penerimaan siswa baru. Tujuannya adalah untuk memberikan akses mudah kepada sumber daya yang dapat membantu pemohon dalam memahami prosedur penerimaan.
 
 Deskripsi langkah-langkah
-
+1. Calon Siswa membuka halaman bantuan online di website pendaftaran
+2. Mereka menjelajahi sumber daya bantuan yang tersedia, seperti pertanyaan yang sering diajukan, panduan pendaftaran, atau opsi untuk menghubungi dukungan online.
+3. Jika ada pertanyaan atau kebingungan, mereka dapat mencari jawaban atau meminta bantuan melalui layanan bantuan online yang disediakan.
 
 Xref : Bagian 3.2.17, Melihat Bantuan Online
-
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
