@@ -146,7 +146,11 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.1, Login Panitia PSB
 
-**2.2.2 Panitia PSB melihat laporan kependudukan**
+**2.2.2 Panitia PSB mengelola verifikasi dokumen**
+
+Use Case : Mengelola verifikasi dokumen
+
+Diagram : 
 
 **2.2.3 Calon Siswa login**
 
