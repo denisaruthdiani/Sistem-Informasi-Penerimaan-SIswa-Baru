@@ -208,10 +208,68 @@ Use Case: Mengelola Data Siswa
 Diagram:
 
 Deskripsi singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola data siswa yang mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk mengumpulkan, menyimpan, dan mengelola informasi pribadi dan akademik calon siswa. 
 
-**2.2.6 Generate Laporan**
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Data Siswa" dalam antarmuka sistem.
+2. Sistem menampilkan daftar calon siswa yang telah mendaftar untuk penerimaan siswa baru.
+3. Panitia PSB dapat menambahkan data siswa baru, termasuk informasi pribadi dan akademik, ke dalam sistem.
+4. Panitia PSB dapat memperbarui atau mengedit data siswa yang sudah ada jika diperlukan.
+5. Panitia PSB dapat menghapus data siswa jika diperlukan, misalnya jika ada duplikasi atau kesalahan.
 
-**2.2.7 Admin mengelola user**
+Xref : Bagian 3.2.5, Mengelola Data Siswa
+
+**2.2.6 Panitia PSB Mengelola Biaya Pendaftaran**
+
+Use Case : Mengelola Biaya Pendaftaran
+
+Diagram:
+
+Deskripsi singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola biaya pendaftaran yang diperlukan dari calon siswa sebagai bagian dari proses penerimaan siswa baru. Tujuannya adalah untuk memantau, mengumpulkan, dan mengelola pembayaran biaya pendaftaran.
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Biaya Pendaftaran" dalam antarmuka sistem.
+2. Sistem menampilkan daftar calon siswa yang telah mendaftar dan membayar biaya pendaftaran.
+3. Panitia PSB dapat memeriksa status pembayaran biaya pendaftaran untuk masing-masing calon siswa.
+4. Panitia PSB dapat mencatat pembayaran yang diterima dari calon siswa.
+5. Panitia PSB dapat mengirimkan pemberitahuan kepada calon siswa yang belum membayar atau memberikan informasi tambahan tentang cara membayar biaya pendaftaran jika diperlukan.
+
+Xref : Bagian 3.2.6, Mengelola Biaya Pendaftaran
+
+**2.2.7 Panitia PSB Mengelola Bantuan Online**
+
+Use Case : Mengelola Bantuan Online
+
+Diagram : 
+
+Deskripsi singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola bantuan online yang diberikan kepada calon siswa yang memerlukan bantuan atau informasi tambahan dalam proses penerimaan siswa baru. Tujuannya adalah untuk memberikan layanan bantuan dan dukungan online kepada pemohon.
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Bantuan Online" dalam antarmuka sistem.
+2. Sistem menampilkan daftar permintaan bantuan online yang diterima dari calon siswa.
+3. Panitia PSB dapat meninjau dan merespons permintaan bantuan online dengan memberikan informasi atau solusi yang sesuai.
+4. Sistem mencatat tanggapan atau bantuan yang diberikan kepada pemohon.
+
+Xref : Bagian 3.2.7, Mengelola Bantuan Online
+
+**2.2.8 Panitia PSB Mengelola Email**
+
+Use Case : Mengelola Bantuan Email
+
+Diagram : 
+
+Deskripsi singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola email yang terkait dengan proses penerimaan siswa baru. Tujuannya adalah untuk memastikan bahwa komunikasi email dengan calon siswa atau pemohon lainnya terkelola dengan baik.
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Email" dalam antarmuka sistem.
+2. Sistem menampilkan daftar email dan pesan yang diterima atau dikirim oleh panitia PSB.
+3. Panitia PSB dapat membaca email, meresponsnya, atau mengirim email kepada calon siswa atau pemohon.
+4. Sistem menyimpan rekam jejak komunikasi email untuk referensi dan dokumentasi.
+
+Xref : Bagian 3.2.7, Mengelola Email
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
