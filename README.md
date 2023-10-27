@@ -12,8 +12,8 @@
 <p align="center"><b> Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II <br>
 </b>
 <p align="center">Kelompok 3 <br>
-Denisa Ruthdiani Siagian    (2257301031)<br>
 Daud Markhesywan    (2257301030)<br>
+Denisa Ruthdiani Siagian    (2257301031)<br>
 Desfian Zahta Gunawan   (2257301032)<br><br><br>
 
 <p align="center"><b>Jurusan Teknik Informasi</b><br>
