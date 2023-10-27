@@ -99,7 +99,7 @@ Tidak ada
 
 **2.1.5 Antarmuka Komunikasi**
 
-Antarmuka Komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II antara lain :
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II antara lain :
 1. Kabel Lan UTP RJ45
 2. Modem
 3. Wifi
@@ -121,19 +121,12 @@ Tidak ada
 | Simpan | Digunakan untuk menyimpan data |
 | Cetak | Digunakan untuk mencetak bukti pendaftaran |
 
-
 **2.1.8 Kebutuhan adaptasi**
 
 Tidak ada
 
 2.2 Spesifikasi Kebutuhan fungsional
 ------------
-- Tabel Kebutuhan Non-Fungsional 
-
-   | No | Deskripsi |
-   | ------ | ------ |
-   | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platform OS 
   
 **2.2.1 Kepala Desa Login**
 
@@ -151,6 +144,13 @@ Tidak ada
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
+- Tabel Kebutuhan Non-Fungsional 
+
+   | No | Deskripsi |
+   | ------ | ------ |
+   | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
+   | 2 | Perangkat Lunak dapat dipakai di semua platform OS 
+  
 2.4   Karakteristik pengguna
 --------------
 Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem dan bisa juga dengan secara langsung tanpa harus dihubungkan dengan hak akses atau level autentikasi.
@@ -170,8 +170,8 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu untuk merujuk pada standar dan kriteria yang harus dipenuhi oleh sistem informasi penerimaan siswa agar dapat berinteraksi dengan sistem atau entitas eksternal lainnya. Antarmuka eksternal ini memastikan integrasi yang lancar dengan sistem atau layanan lain yang digunakan oleh calon siswa, orang tua, atau lembaga pendidikan yang terkait.
-
+Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh panitia PSB, login melalui website ini dengan membuat akun dengan informasi pribadi dan mengisi formulir pendaftaran. Setelah login berhasil, calon siswa dapat melihat status pendaftaran mereka setelah pendaftaran.
+   
 3.2 Functional Requirement
 ----------
 **3.2.1 Kepala desa Login**
