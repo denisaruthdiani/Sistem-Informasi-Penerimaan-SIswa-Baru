@@ -150,9 +150,24 @@ Xref: Bagian 3.2.1, Login Panitia PSB
 
 Use Case : Mengelola verifikasi dokumen
 
-Diagram : 
+Diagram :
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-2.jpg)
+
+Deskripsi Singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola verifikasi dokumen yang diajukan oleh calon siswa sebagai bagian dari proses pendaftaran. Tujuannya adalah untuk memeriksa dan memvalidasi dokumen-dokumen yang diterima dari calon siswa.
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Verifikasi Dokumen" dalam antarmuka sistem.
+2. Sistem menampilkan daftar calon siswa yang telah mengajukan dokumen pendaftaran.
+3. Panitia PSB memilih calon siswa yang akan diperiksa dokumennya.
+4. Panitia PSB memeriksa dokumen yang diajukan oleh calon siswa, seperti akte kelahiran, rapor sekolah, dan dokumen lainnya.
+5. Panitia PSB memutuskan apakah dokumen tersebut lengkap, valid, dan memenuhi persyaratan penerimaan.
+6. Sistem mencatat hasil verifikasi dokumen dan status calon siswa yang bersangkutan.
+
+Xref: Bagian 3.2.2, Mengelola Verifikasi Dokumen
 
 **2.2.3 Calon Siswa login**
+
 
 **2.2.4 Calon Siswa input data kependudukan**
 
