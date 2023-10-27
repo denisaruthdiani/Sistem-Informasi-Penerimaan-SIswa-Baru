@@ -254,24 +254,7 @@ Deskripsi langkah-langkah
 
 Xref : Bagian 3.2.7, Mengelola Bantuan Online
 
-**2.2.8 Panitia PSB Mengelola Email**
-
-Use Case : Mengelola Bantuan Email
-
-Diagram : 
-
-Deskripsi singkat
-Panitia Penerimaan Siswa Baru (PSB) mengelola email yang terkait dengan proses penerimaan siswa baru. Tujuannya adalah untuk memastikan bahwa komunikasi email dengan calon siswa atau pemohon lainnya terkelola dengan baik.
-
-Deskripsi langkah-langkah
-1. Panitia PSB memilih opsi "Mengelola Email" dalam antarmuka sistem.
-2. Sistem menampilkan daftar email dan pesan yang diterima atau dikirim oleh panitia PSB.
-3. Panitia PSB dapat membaca email, meresponsnya, atau mengirim email kepada calon siswa atau pemohon.
-4. Sistem menyimpan rekam jejak komunikasi email untuk referensi dan dokumentasi.
-
-Xref : Bagian 3.2.8, Mengelola Email
-
-**2.2.9 Calon Siswa Login**
+**2.2.8 Calon Siswa Login**
 
 Use Case : Login
 
@@ -286,9 +269,9 @@ Deskripsi langkah-langkah
 3. Sistem memeriksa kecocokan informasi login yang dimasukkan dengan data yang ada di basis data pendaftaran.
 4. Jika informasi login benar, sistem memberikan akses ke informasi pendaftaran, status seleksi, dan komunikasi terkait.
 
-Xref: Bagian 3.2.9, Login
+Xref: Bagian 3.2.8, Login
 
-**2.2.10 Calon Siswa Melihat Profil Sekolah**
+**2.2.9 Calon Siswa Melihat Profil Sekolah**
 
 Use Case : Melihat Profil Sekolah
 
@@ -303,11 +286,11 @@ Deskripsi langkah-langkah
 3. Sistem menampilkan informasi tentang sejarah sekolah, fasilitas, program pendidikan, prestasi, visi-misi, dan informasi umum lainnya yang relevan.
 4. Calon Siswa  membaca dan mengeksplorasi informasi yang disajikan.
    
-Xref: Bagian 3.2.10, Melihat Profil Sekolah
+Xref: Bagian 3.2.9, Melihat Profil Sekolah
 
-**2.2.11 Calon Siswa Melakukan Pencarian Informasi**
+**2.2.10 Calon Siswa Melakukan Pencarian Informasi Pendaftaran**
 
-Use Case: Melakukan Pencarian Informasi
+Use Case: Melakukan Pencarian Informasi Pendaftaran
 
 Diagram:
 
@@ -321,9 +304,9 @@ Deskripsi langkah-langkah
 4. Hasil pencarian ditampilkan dalam bentuk daftar berisi tautan atau artikel yang sesuai dengan kata kunci atau frasa yang dimasukkan.
 5. Calon Siswa emilih salah satu hasil pencarian untuk membaca informasi lebih lanjut.
 
-Xref : Bagian 3.2.11, Melakukan Pencarian Informasi
+Xref : Bagian 3.2.10, Melakukan Pencarian Informasi Pendaftaran
 
-**2.2.12 Calon Siswa Mengunggah Dokumen Pendaftaran**
+**2.2.11 Calon Siswa Mengunggah Dokumen Pendaftaran**
 
 Use Case : Mengunggah Dokumen Pendaftaran
 
@@ -335,9 +318,9 @@ Deskripsi singkat
 Deskripsi langkah-langkah
 
 
-Xref : Bagian 3.2.12, Mengunggah Dokumen Pendaftaran
+Xref : Bagian 3.2.11, Mengunggah Dokumen Pendaftaran
 
-**2.2.13 Calon Siswa Melihat Status Pendaftaran**
+**2.2.12 Calon Siswa Melihat Status Pendaftaran**
 
 Use Case : Melihat Status Pendaftaran
 
@@ -349,9 +332,9 @@ Deskripsi singkat
 Deskripsi langkah-langkah
 
 
-Xref : Bagian 3.2.13, Melihat Status Pendaftaran
+Xref : Bagian 3.2.12, Melihat Status Pendaftaran
 
-**2.2.14 Calon Siswa Melihat Jadwal Seleksi**
+**2.2.13 Calon Siswa Melihat Jadwal Seleksi**
 
 Use Case : Melihat Jadwal Seleksi
 
@@ -362,9 +345,9 @@ Deskripsi singkat
 
 Deskripsi langkah-langkah
 
-Xref : Bagian 3.2.14, Melihat Jadwal Seleksi
+Xref : Bagian 3.2.13, Melihat Jadwal Seleksi
 
-**2.2.15 Calon Siswa Melihat Pengumuman Hasil Seleksi**
+**2.2.14 Calon Siswa Melihat Pengumuman Hasil Seleksi**
 
 Use Case : Melihat Pengumuman Hasil Seleksi
 
@@ -376,9 +359,9 @@ Deskripsi singkat
 Deskripsi langkah-langkah
 
 
-Xref : Bagian 3.2.15, Melihat Pengumuman Hasil Seleksi
+Xref : Bagian 3.2.14, Melihat Pengumuman Hasil Seleksi
 
-**2.2.16 Calon Siswa Mengunggah Bukti Pembayaran**
+**2.2.15 Calon Siswa Mengunggah Bukti Pembayaran**
 
 Use Case : Mengunggah Bukti Pembayaran
 
@@ -390,9 +373,9 @@ Deskripsi singkat
 Deskripsi langkah-langkah
 
 
-Xref : Bagian 3.2.16, Mengunggah Bukti Pembayaran
+Xref : Bagian 3.2.15, Mengunggah Bukti Pembayaran
 
-**2.2.17 Calon Siswa Melihat Informasi Kontak**
+**2.2.16 Calon Siswa Melihat Informasi Kontak**
 
 Use Case : Melihat Informasi Kontak
 
@@ -403,9 +386,9 @@ Deskripsi singkat
 
 Deskripsi langkah-langkah
 
-Xref : Bagian 3.2.17, Melihat Informasi Kontak
+Xref : Bagian 3.2.16, Melihat Informasi Kontak
 
-**2.2.18 Calon Siswa Melihat Bantuan Online**
+**2.2.17 Calon Siswa Melihat Bantuan Online**
 
 Use Case : Melihat Bantuan Online
 
@@ -417,34 +400,8 @@ Deskripsi singkat
 Deskripsi langkah-langkah
 
 
-Xref : Bagian 3.2.18, Melihat Bantuan Online
+Xref : Bagian 3.2.17, Melihat Bantuan Online
 
-**2.2.19 Calon Siswa Melihat Notifikasi Email**
-
-Use Case : Melihat Notifikasi Email
-
-Diagram : 
-
-Deskripsi singkat
-
-
-Deskripsi langkah-langkah
-
-Xref : Bagian 3.2.19, Melihat Notifikasi Email
-
-**2.2.20 Calon Siswa Mengakses ke Pedoman Penerimaan**
-
-Use Case : Akses ke Pedoman Penerimaan
-
-Diagram:
-
-Deskripsi singkat
-
-
-Deskripsi langkah-langkah
-
-
-Xref : Bagian 3.2.20, Mengakses ke Pedoman Penerimaan
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
