@@ -269,7 +269,182 @@ Deskripsi langkah-langkah
 3. Panitia PSB dapat membaca email, meresponsnya, atau mengirim email kepada calon siswa atau pemohon.
 4. Sistem menyimpan rekam jejak komunikasi email untuk referensi dan dokumentasi.
 
-Xref : Bagian 3.2.7, Mengelola Email
+Xref : Bagian 3.2.8, Mengelola Email
+
+**2.2.9 Calon Siswa Login**
+
+Use Case : Login
+
+Diagram:
+
+Deskripsi Singkat
+Proses  login yang dilakukan oleh calon siswa yang telah mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk memberikan akses ke informasi dan status pendaftaran mereka serta mengikuti perkembangan selama proses penerimaan.
+
+Deskripsi langkah-langkah
+1. Calon Siswa membuka halaman login sistem.
+2. Calon Siswa memasukkan username dan password yang telah mereka daftarkan sebelumnya.
+3. Sistem memeriksa kecocokan informasi login yang dimasukkan dengan data yang ada di basis data pendaftaran.
+4. Jika informasi login benar, sistem memberikan akses ke informasi pendaftaran, status seleksi, dan komunikasi terkait.
+
+Xref: Bagian 3.2.9, Login
+
+**2.2.10 Calon Siswa Melihat Profil Sekolah**
+
+Use Case : Melihat Profil Sekolah
+
+Diagram:
+
+Deskripsi singkat
+Calon siswa yang berpotensial dapat melihat profil sekolah yang mencakup informasi tentang sejarah sekolah, fasilitas, program pendidikan, prestasi, dan informasi umum lainnya. Tujuannya adalah memberikan pemahaman kepada calon siswa dan orang tua/wali tentang sekolah yang mereka pertimbangkan untuk penerimaan siswa baru.
+
+Deskripsi langkah-langkah
+1. Calon Siswa mengunjungi situs web sekolah
+2. Mereka menjelajahi bagian "Profil Sekolah" atau "Tentang Kami" yang disediakan dalam antarmuka.
+3. Sistem menampilkan informasi tentang sejarah sekolah, fasilitas, program pendidikan, prestasi, visi-misi, dan informasi umum lainnya yang relevan.
+4. Calon Siswa  membaca dan mengeksplorasi informasi yang disajikan.
+   
+Xref: Bagian 3.2.10, Melihat Profil Sekolah
+
+**2.2.11 Calon Siswa Melakukan Pencarian Informasi**
+
+Use Case: Melakukan Pencarian Informasi
+
+Diagram:
+
+Deskripsi singkat
+calon siswa mencari informasi spesifik atau topik tertentu yang relevan dengan penerimaan siswa baru di sekolah. Tujuannya adalah untuk memberikan akses cepat dan efisien ke informasi yang dibutuhkan.
+
+Deskripsi langkah-langkah
+1. Calon Siswa membuka fitur pencarian atau kotak pencarian dalam situs web 
+2. Mereka memasukkan kata kunci atau frasa yang relevan terkait dengan informasi yang mereka cari, seperti "persyaratan pendaftaran," "biaya sekolah," atau "jadwal seleksi."
+3. Sistem melakukan pencarian dalam basis data informasi yang ada di situs web atau aplikasi.
+4. Hasil pencarian ditampilkan dalam bentuk daftar berisi tautan atau artikel yang sesuai dengan kata kunci atau frasa yang dimasukkan.
+5. Calon Siswa emilih salah satu hasil pencarian untuk membaca informasi lebih lanjut.
+
+Xref : Bagian 3.2.11, Melakukan Pencarian Informasi
+
+**2.2.12 Calon Siswa Mengunggah Dokumen Pendaftaran**
+
+Use Case : Mengunggah Dokumen Pendaftaran
+
+Diagram:
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+
+Xref : Bagian 3.2.12, Mengunggah Dokumen Pendaftaran
+
+**2.2.13 Calon Siswa Melihat Status Pendaftaran**
+
+Use Case : Melihat Status Pendaftaran
+
+Diagram : 
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+
+Xref : Bagian 3.2.13, Melihat Status Pendaftaran
+
+**2.2.14 Calon Siswa Melihat Jadwal Seleksi**
+
+Use Case : Melihat Jadwal Seleksi
+
+Diagram : 
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+Xref : Bagian 3.2.14, Melihat Jadwal Seleksi
+
+**2.2.15 Calon Siswa Melihat Pengumuman Hasil Seleksi**
+
+Use Case : Melihat Pengumuman Hasil Seleksi
+
+Diagram:
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+
+Xref : Bagian 3.2.15, Melihat Pengumuman Hasil Seleksi
+
+**2.2.16 Calon Siswa Mengunggah Bukti Pembayaran**
+
+Use Case : Mengunggah Bukti Pembayaran
+
+Diagram : 
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+
+Xref : Bagian 3.2.16, Mengunggah Bukti Pembayaran
+
+**2.2.17 Calon Siswa Melihat Informasi Kontak**
+
+Use Case : Melihat Informasi Kontak
+
+Diagram : 
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+Xref : Bagian 3.2.17, Melihat Informasi Kontak
+
+**2.2.18 Calon Siswa Melihat Bantuan Online**
+
+Use Case : Melihat Bantuan Online
+
+Diagram : 
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+
+Xref : Bagian 3.2.18, Melihat Bantuan Online
+
+**2.2.19 Calon Siswa Melihat Notifikasi Email**
+
+Use Case : Melihat Notifikasi Email
+
+Diagram : 
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+Xref : Bagian 3.2.19, Melihat Notifikasi Email
+
+**2.2.20 Calon Siswa Mengakses ke Pedoman Penerimaan**
+
+Use Case : Akses ke Pedoman Penerimaan
+
+Diagram:
+
+Deskripsi singkat
+
+
+Deskripsi langkah-langkah
+
+
+Xref : Bagian 3.2.20, Mengakses ke Pedoman Penerimaan
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
