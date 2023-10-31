@@ -173,7 +173,7 @@ Xref: Bagian 3.2.2, Mengelola Verifikasi Dokumen
 Use Case : Seleksi Siswa
 
 Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-2.jpg)
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-3.jpg)
 
 Deskripsi Singkat
 Seleksi siswa yang dilakukan oleh panitia Penerimaan Siswa Baru (PSB) untuk menentukan apakah calon siswa memenuhi kriteria yang diperlukan untuk diterima dalam sekolah. Tujuannya adalah untuk menilai kemampuan dan kelayakan calon siswa.
