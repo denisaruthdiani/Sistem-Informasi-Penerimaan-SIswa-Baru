@@ -210,6 +210,7 @@ Xref: Bagian 3.2.4, Mengelola Pengumuman Hasil Seleksi
 Use Case: Mengelola Data Siswa
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
 
 Deskripsi singkat
 Panitia Penerimaan Siswa Baru (PSB) mengelola data siswa yang mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk mengumpulkan, menyimpan, dan mengelola informasi pribadi dan akademik calon siswa. 
