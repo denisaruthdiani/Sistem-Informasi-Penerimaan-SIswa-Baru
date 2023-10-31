@@ -81,7 +81,7 @@ Sistem Informasi Penerimaan Siswa Baru adalah sebuah sistem administrasi data ya
 Pada sistem informasi penerimaan siswa baru ini akan menampilkan grafik penerimaan siswa yang sudah diinputkan oleh calon siswa.
 
 **2.1.1 Antarmuka Sistem**
-![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/UseCaseSistemInformasiPenerimaanSiswaBaru.jpg)
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Antarmukasistem.jpg)(https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/UseCaseSistemInformasiPenerimaanSiswaBaru.jpg)
 Sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II memiliki 2 user yaitu panitia PSB dan calon siswa. Panitia PSB mempunyai fungsi yaitu melakukan view grafik, bisa view laporan, mengelola data. Calon siswa untuk melakukan pendaftaran dan registrasi.
 
 **2.1.2 Antarmuka Pengguna**
@@ -127,7 +127,8 @@ Tidak ada
 
 2.2 Spesifikasi Kebutuhan fungsional
 ------------
-  
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/UseCaseSistemInformasiPenerimaanSiswaBaru.jpg)
+
 **2.2.1 Panitia PSB Login**
 
 Use Case : Login
