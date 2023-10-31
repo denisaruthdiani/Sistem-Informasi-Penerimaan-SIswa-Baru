@@ -192,7 +192,7 @@ Xref: Bagian 3.2.3, Seleksi Siswa
 Use Case : Mengelola Pengumuman Hasil Seleksi
 
 Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-3.jpg)
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-4.jpg)
 
 Deskripsi singkat
 Panitia Penerimaan Siswa Baru (PSB) mengelola dan mempublikasikan hasil seleksi calon siswa kepada calon siswa dan orang tua/wali. Tujuannya adalah untuk memberikan transparansi dan memberitahu calon siswa tentang status seleksi mereka.
