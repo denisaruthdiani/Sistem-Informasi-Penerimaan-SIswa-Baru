@@ -248,6 +248,7 @@ Xref : Bagian 3.2.6, Mengelola Biaya Pendaftaran
 Use Case : Mengelola Bantuan Online
 
 Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-8.jpg)
 
 Deskripsi singkat
 Panitia Penerimaan Siswa Baru (PSB) mengelola bantuan online yang diberikan kepada calon siswa yang memerlukan bantuan atau informasi tambahan dalam proses penerimaan siswa baru. Tujuannya adalah untuk memberikan layanan bantuan dan dukungan online kepada pemohon.
@@ -265,6 +266,7 @@ Xref : Bagian 3.2.7, Mengelola Bantuan Online
 Use Case : Login
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-19.jpg)
 
 Deskripsi Singkat
 Proses  login yang dilakukan oleh calon siswa yang telah mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk memberikan akses ke informasi dan status pendaftaran mereka serta mengikuti perkembangan selama proses penerimaan.
@@ -282,6 +284,7 @@ Xref: Bagian 3.2.8, Login
 Use Case : Melihat Profil Sekolah
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-9.jpg)
 
 Deskripsi singkat
 Calon siswa yang berpotensial dapat melihat profil sekolah yang mencakup informasi tentang sejarah sekolah, fasilitas, program pendidikan, prestasi, dan informasi umum lainnya. Tujuannya adalah memberikan pemahaman kepada calon siswa dan orang tua/wali tentang sekolah yang mereka pertimbangkan untuk penerimaan siswa baru.
@@ -299,6 +302,7 @@ Xref: Bagian 3.2.9, Melihat Profil Sekolah
 Use Case: Melakukan Pencarian Informasi Pendaftaran
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-10.jpg)
 
 Deskripsi singkat
 calon siswa mencari informasi spesifik atau topik tertentu yang relevan dengan penerimaan siswa baru di sekolah. Tujuannya adalah untuk memberikan akses cepat dan efisien ke informasi yang dibutuhkan.
@@ -317,6 +321,7 @@ Xref : Bagian 3.2.10, Melakukan Pencarian Informasi Pendaftaran
 Use Case : Mengunggah Dokumen Pendaftaran
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-11.jpg)
 
 Deskripsi singkat
 Calon siswa yang sedang mendaftar mengunggah dokumen-dokumen yang diperlukan, seperti akte kelahiran, rapor atau dokumen lainnya sebagai bagian dari proses pendaftaran. Tujuannya adalah untuk memungkinkan calon siswa untuk mengirimkan dan menyimpan dokumen secara elektronik.
@@ -335,6 +340,7 @@ Xref : Bagian 3.2.11, Mengunggah Dokumen Pendaftaran
 Use Case : Melihat Status Pendaftaran
 
 Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-12.jpg)
 
 Deskripsi singkat
 Calon siswa yang telah mendaftar dapat memeriksa status pendaftaran mereka, seperti apakah pendaftaran mereka telah diterima, ditolak, atau sedang dalam proses seleksi. Tujuannya adalah untuk memberikan informasi kepada calon siswa tentang perkembangan pendaftaran mereka.
@@ -352,6 +358,7 @@ Xref : Bagian 3.2.12, Melihat Status Pendaftaran
 Use Case : Melihat Jadwal Seleksi
 
 Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-13.jpg)
 
 Deskripsi singkat
 Calon siswa yang telah mendaftar untuk penerimaan siswa baru dapat melihat jadwal seleksi, termasuk tanggal, waktu, dan lokasi seleksi. Tujuannya adalah untuk memberikan informasi kepada calon siswa tentang kapan dan di mana seleksi akan berlangsung.
@@ -368,6 +375,7 @@ Xref : Bagian 3.2.13, Melihat Jadwal Seleksi
 Use Case : Melihat Pengumuman Hasil Seleksi
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-14.jpg)
 
 Deskripsi singkat
 Calon siswa yang telah mengikuti seleksi untuk penerimaan siswa baru dapat melihat pengumuman hasil seleksi, yang mencakup apakah mereka diterima, ditolak, atau berada dalam daftar tunggu. Tujuannya adalah untuk memberikan informasi kepada calon siswa tentang hasil seleksi mereka.
@@ -384,6 +392,7 @@ Xref : Bagian 3.2.14, Melihat Pengumuman Hasil Seleksi
 Use Case : Mengunggah Bukti Pembayaran
 
 Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-15.jpg)
 
 Deskripsi singkat
 Calon siswa yang telah diterima dalam proses penerimaan siswa baru dapat mengunggah bukti pembayaran biaya pendaftaran atau biaya lain yang diperlukan sebagai langkah akhir dalam pendaftaran mereka. Tujuannya adalah untuk memastikan bahwa calon siswa telah membayar biaya yang diperlukan sebagai syarat penerimaan.
@@ -402,6 +411,7 @@ Xref : Bagian 3.2.15, Mengunggah Bukti Pembayaran
 Use Case : Melihat Informasi Kontak
 
 Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-16.jpg)
 
 Deskripsi singkat
 Calon siswa dapat mengakses informasi kontak sekolah, seperti alamat, nomor telepon, email, atau alamat situs web sekolah. Tujuannya adalah untuk memberikan cara mudah bagi calon siswa dan orang tua/wali untuk menghubungi sekolah jika ada pertanyaan atau keperluan lainnya.
@@ -418,6 +428,7 @@ Xref : Bagian 3.2.16, Melihat Informasi Kontak
 Use Case : Melihat Bantuan Online
 
 Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-17.jpg)
 
 Deskripsi singkat
 Calon siswa dapat mengakses layanan bantuan online, seperti FAQ (Frequently Asked Questions), panduan, atau chat dukungan, untuk mendapatkan informasi atau bantuan terkait proses penerimaan siswa baru. Tujuannya adalah untuk memberikan akses mudah kepada sumber daya yang dapat membantu pemohon dalam memahami prosedur penerimaan.
