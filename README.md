@@ -476,31 +476,31 @@ Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan ol
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
 
-**3.2.1 Kepala desa Login**
+**3.2.1 Panitia PSB Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala desa |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Xref | Bagian 2.2.1, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
 | Precondition | Halaman login |
-| Basic Path | 1. Kepala desa mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
 | Exception Push | Username dan password salah |
       
-**3.2.2 Kepala desa melihat laporan kependudukan**
+**3.2.2 Panitia PSB mengelola verifikasi dokumen**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View laporan kependudukan |
-| Xref | Bagian 2.2.2, View laporan kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Membuka halaman grafik kependudukan |
-| Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
+| Nama Fungsi | Verifikasi Dokumen |
+| Xref | Bagian 2.2.2, Mengelola Verifikasi Dokumen |
+| Trigger | Ketika calon siswa mengunggah dokumen pendaftaran mereka|
+| Precondition | 1. Panitia PSB harus sudah masuk ke dalam sistem dengan autentikasi yang sesuai <br> 2. Dokumen yang diunggah harus sesuai dengan persyaratan yang telah ditentukan. |
+| Basic Path | 1. Sistem menampilkan daftar dokumen yang diunggah oleh calon siswa yang perlu diverifikasi <br> 2. Panitia PSB memilih dokumen untuk diverifikasi <br> 3. Panitia PSB memeriksa kelengkapan dan keaslian dokumen yang dipilih <br> 4. Jika dokumen lengkap dan sesuai, panitia PSB mengubah status dokumen menjadi "Diterimma" dan mencatat tanggal verifikasi <br> 5. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah diterima <6> Data verifikasi disimpan dalam basis data. |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa melihat laporan kependudukan |
-| Exception Push | Tidak ada koneksi |
+| Post Condition | 1. Status dokumen diperbarui dalam sistem <br> 2. Notifikasi dikirim kepada calon siswa <br> 3. Data verifikasi disimpan dalam basis data |
+| Exception Push | 1. Jika dokumen tidak lengkap atau tidak sesuai, sistem mengubah status dokumen menjadi "Perlu Klarifikasi" dan mencatat tanggal verifikasi <br> 2. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen perlu klarifikasi <br> 3. Jika dokumen tidak valid, sistem mengubah status dokumen menjadi "Ditolak" dan mencatat tanggal verifikasi. <br> 4.Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah ditolak. |
    
 **3.2.3 Admin login**
 
