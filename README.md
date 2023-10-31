@@ -229,6 +229,7 @@ Xref : Bagian 3.2.5, Mengelola Data Siswa
 Use Case : Mengelola Biaya Pendaftaran
 
 Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-7.jpg)
 
 Deskripsi singkat
 Panitia Penerimaan Siswa Baru (PSB) mengelola biaya pendaftaran yang diperlukan dari calon siswa sebagai bagian dari proses penerimaan siswa baru. Tujuannya adalah untuk memantau, mengumpulkan, dan mengelola pembayaran biaya pendaftaran.
