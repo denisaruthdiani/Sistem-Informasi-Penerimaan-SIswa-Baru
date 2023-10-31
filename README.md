@@ -495,76 +495,208 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Verifikasi Dokumen |
 | Xref | Bagian 2.2.2, Mengelola Verifikasi Dokumen |
-| Trigger | Ketika calon siswa mengunggah dokumen pendaftaran mereka|
-| Precondition | 1. Panitia PSB harus sudah masuk ke dalam sistem dengan autentikasi yang sesuai <br> 2. Dokumen yang diunggah harus sesuai dengan persyaratan yang telah ditentukan. |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
+| Precondition | Dokumen yang diunggah harus sesuai dengan persyaratan yang telah ditentukan. |
 | Basic Path | 1. Sistem menampilkan daftar dokumen yang diunggah oleh calon siswa yang perlu diverifikasi <br> 2. Panitia PSB memilih dokumen untuk diverifikasi <br> 3. Panitia PSB memeriksa kelengkapan dan keaslian dokumen yang dipilih <br> 4. Jika dokumen lengkap dan sesuai, panitia PSB mengubah status dokumen menjadi "Diterimma" dan mencatat tanggal verifikasi <br> 5. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah diterima <6> Data verifikasi disimpan dalam basis data. |
 | Alternative | Tidak ada |
 | Post Condition | 1. Status dokumen diperbarui dalam sistem <br> 2. Notifikasi dikirim kepada calon siswa <br> 3. Data verifikasi disimpan dalam basis data |
 | Exception Push | 1. Jika dokumen tidak lengkap atau tidak sesuai, sistem mengubah status dokumen menjadi "Perlu Klarifikasi" dan mencatat tanggal verifikasi <br> 2. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen perlu klarifikasi <br> 3. Jika dokumen tidak valid, sistem mengubah status dokumen menjadi "Ditolak" dan mencatat tanggal verifikasi. <br> 4.Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah ditolak. |
    
-**3.2.3 Admin login**
+**3.2.3 Panitia PSB Seleksi Siswa**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Seleksi Siswa |
+| Xref | Bagian 2.2.3, Seleksi Siswa |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
+| Precondition | Data calon siswa dan dokumen pendaftaran harus sudah tersedia dalam sistem. |
+| Basic Path | 1. Sistem menampilkan daftar calon siswa yang telah mendaftar <br> 2. Panitia PSB memilih calon siswa yang akan diproses seleksi <br> 3. Panitia PSB melakukan proses seleksi sesuai dengan kriteria yang ditentukan <br> 4. Data hasil seleksi disimpan dalam basis data. |
+| Alternative | Tidak ada |
+| Post Condition | Status pendaftaran calon siswa diperbarui dalam sistem |
+| Exception Push | Jika ada kesalahan sistem atau masalah teknis saat memproses seleksi, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya |
+   
+**3.2.4 Panitia PSB Mengelola Pengumuman Hasil Seleksi**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Pengumuman Hasil Seleksi |
+| Xref | Bagian 2.2.4, Mengelola Pengumuman Hasil Seleksi |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
+| Precondition | Hasil seleksi calon siswa harus sudah diproses dan disimpan dalam sistem. |
+| Basic Path |1. Sistem menampilkan daftar calon siswa yang telah menjalani proses seleksi <br> 2. Panitia PSB memilih calon siswa yang hasil seleksinya akan diumumkan <br> 3. Panitia PSB memasukkan informasi pengumuman, seperti apakah calon siswa diterima, ditolak, atau sedang diproses <4> 4. Sistem memperbarui status pendaftaran calon siswa sesuai dengan hasil pengumuman <br> 5. Sistem mengirim notifikasi kepada calon siswa yang hasil seleksinya diumumkan <br> 6. Data hasil pengumuman disimpan dalam basis data. |
+| Alternative | 1. Jika calon siswa diterima, sistem mengirim notifikasi kepada mereka dengan instruksi selanjutnya <br> 2. Jika calon siswa ditolak, sistem mengirim notifikasi dengan pemberitahuan penolakan dan alasan jika diperlukan <br> 3. Jika calon siswa berada dalam daftar tunggu, sistem mengirim notifikasi tentang status mereka dan instruksi selanjutnya.|
+| Post Condition | 1. Status pendaftaran calon siswa diperbarui dalam sistem <br> 2. Notifikasi dikirim kepada calon siswa |
+| Exception Push | Jika ada kesalahan sistem atau masalah teknis saat memproses seleksi, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya |
+   
+**3.2.5 Panitia PSB Mengelola Data Siswa**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Data Siswa |
+| Xref | Bagian 2.2.5, Mengelola Data Siswa|
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II  |
+| Precondition | Data siswa yang telah diterima dalam proses seleksi harus sudah tersedia dalam sistem.|
+| Basic Path | 1. Sistem menampilkan daftar data siswa yang telah diterima <br> 2. Panitia PSB memilih data siswa yang akan dikelola <br> 3. Panitia PSB dapat melakukan berbagai tindakan, seperti memperbarui informasi kontak siswa, mengubah status penerimaan, atau menambahkan catatan tambahan <br> 4. Sistem memperbarui data siswa sesuai dengan tindakan yang diambil oleh panitia PSB <br> 5. Data perubahan disimpan dalam basis data |
+| Alternative | 1. Jika ada kesalahan dalam data siswa, panitia PSB dapat memperbaiki atau mengoreksi informasi <br> 2. Jika perlu mengubah status penerimaan siswa, panitia PSB dapat mengubah status dari "Diterima" menjadi "Ditolak" atau sebaliknya <br> 3.Jika perlu menambahkan catatan atau informasi tambahan tentang siswa, panitia PSB dapat memasukkan catatan tersebut |
+| Post Condition | Data siswa yang dikelola oleh panitia PSB diperbarui dalam sistem |
+| Exception Push | Jika terjadi kesalahan teknis atau kegagalan saat menyimpan perubahan data, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya |
+   
+**3.2.6 Panitia PSB Mengelola Biaya Pendaftaran**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Biaya Pendaftaran |
+| Xref | Bagian 2.2.6, Mengelola Biaya Pendaftaran |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
+| Precondition | Calon siswa yang telah diterima harus memiliki biaya pendaftaran yang belum terverifikasi atau terbayar |
+| Basic Path | 1. Sistem menampilkan daftar calon siswa yang memiliki biaya pendaftaran yang belum terverifikasi atau terbayar <br> 2. Panitia PSB memilih calon siswa yang akan diproses pembayaran biaya pendaftaran <br> 3. Panitia PSB memeriksa status pembayaran dan biaya pendaftaran yang harus dibayarkan oleh calon siswa <br> 4. Panitia PSB dapat memasukkan informasi pembayaran, seperti tanggal pembayaran dan metode pembayaran yang digunakan <br> 5. Sistem memperbarui status pembayaran calon siswa menjadi "Terverifikasi" dan mencatat informasi pembayaran <br> 6. Sistem mengirim notifikasi kepada calon siswa yang pembayarannya telah terverifikasi <br> 7. Data pembayaran disimpan dalam basis data |
+| Alternative | 1. Jika calon siswa belum membayar biaya pendaftaran, panitia PSB dapat memberikan instruksi kepada mereka untuk membayar biaya tersebut <br> 2. Jika terjadi masalah dengan proses pembayaran, panitia PSB dapat mencatat masalah tersebut dan memberikan instruksi atau bantuan tambahan |
+| Post Condition | 1. Status pembayaran calon siswa diperbarui dalam sistem <br> 2. Notifikasi dikirim kepada calon siswa tentang verifikasi pembayaran |
+| Exception Push | Jika terjadi kesalahan teknis atau kegagalan dalam proses pembayaran, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya |
+
+**3.2.7  Panitia PSB Mengelola Bantuan Online**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Bantuan Online |
+| Xref | Bagian 2.2.7, Mengelola bantuan online |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II | 
+| Precondition | Permintaan bantuan online dari calon siswa  harus telah diterima dalam sistem |
+| Basic Path | 1. Sistem menampilkan daftar permintaan bantuan online yang belum ditanggapi <br> 2. Panitia PSB memilih permintaan bantuan yang akan ditangani <br> 3. Panitia PSB membaca dan memahami isi permintaan bantuan online <br> 4. Panitia PSB memberikan respon atau bantuan yang sesuai kepada pemohon melalui sistem <br> 5. Sistem mencatat respon atau bantuan yang telah diberikan <br> 6. Sistem mengirim notifikasi kepada calon siswa yang meminta bantuan online <br> 7. Data respon atau bantuan disimpan dalam basis data |
+| Alternative | 1. Jika permintaan bantuan online memerlukan tindakan lanjutan atau klarifikasi, panitia PSB dapat meminta informasi tambahan dari pemohon atau memberikan instruksi selanjutnya <br> 2.Jika bantuan online tidak dapat diberikan melalui sistem, panitia PSB dapat memberikan instruksi tentang cara mendapatkan bantuan lebih lanjut |
+| Post Condition | 1. Respon atau bantuan telah diberikan kepada pemohon <br> 2. Notifikasi dikirim kepada pemohon yang meminta bantuan online.
+ |
+| Exception Push | Jika terjadi masalah teknis dalam proses pengiriman respon atau bantuan online, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya |
+
+**3.2.8 Calon Siswa Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.3, Login admin |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman login admin |
-| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Xref | Bagian 2.2.8, Calon Siswa Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Calon siswa mengisi form login dengan username dan password <br> 2. Calon siswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Post Condition | Calon siswa dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
 | Exception Push | Username dan password salah |
-   
-**3.2.4 Admin input data kependudukan**
+
+**3.2.9 Calon Siswa Melihat Profil Sekolah**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data kependudukan |
-| Xref | Bagian 2.2.4, Input data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Nama Fungsi | Profil Sekolah |
+| Xref | Bagian 2.2.9, Melihat Profil Sekolah|
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data kependudukan |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.5 Admin melihat data kependudukan**
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.10 Panitia PSB Login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data kependudukan |
-| Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.10, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.6 Cetak Laporan**
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.11 Panitia PSB Login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Laporan |
-| Xref | Bagian 2.2.6, Cetak Laporan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | halaman utama admin |
-| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.11, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman Laporan |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
 
-**3.2.7  Admin mengelola user**
+**3.2.12 Panitia PSB Login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola user |
-| Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
-| Precondition | halaman utama admin |
-| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
-| Post Condition | Halaman user |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.12, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.13 Panitia PSB Login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.13, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.14 Panitia PSB Login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.14, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.15 Panitia PSB Login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.15, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.16 Panitia PSB Login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.16, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
+
+**3.2.17 Panitia PSB Login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.17, Panitia PSB Login |
+| Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Halaman login |
+| Basic Path | 1. Panitia PSB mengisi form login dengan username dan password <br> 2.Panitia PSB mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Panitia PSB dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
+| Exception Push | Username dan password salah |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
