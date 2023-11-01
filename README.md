@@ -770,7 +770,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Id_siswa| int | Nomer auto increment Id_siswa |
 | NIS | int | Nomor unik yang digunakan untuk mengidentifikasi siswa yang sudah diterima |
 | Nama_siswa | varchar| Nama lengkap siswa yang sudah diterima |
-| kelas | varchar | Kelas atau program studi yang diikuti oleh siswa yang sudah diterima |
+| kelas | varchar | Kelas siswa yang sudah diterima |
 | tanggal_penerimaan | date |Tanggal ketika siswa diterima resmi |
 | tahun_ajaran | date |  Tahun ajaran ketika siswa diterima dimana tahun akademik atau tahun pelajaran yang sedang berlangsung.|
 
