@@ -701,150 +701,70 @@ Logika Struktur terdapat pada bagian 3.3.1
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
+
 Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-ERD.jpg)
 
-**Tabel User**
+**Tabel Calon Siswa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_user| int | Nomer auto increment Id_user|
-| Username | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Password | varchar | berisikan password untuk login admin dan user |
-| level | varchar | untuk membedakan level saat login antara admin dan user
+| Id_calon_siswa| varchar | Nomer auto increment Id_calon_siswa |
+| Username| varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Email | varchar | berisikan password untuk login admin dan user |
+| Password | varchar | untuk membedakan level saat login antara admin dan user |
+| NISN | int | Nomer auto increment Id_user|
+| Nama_lengkap | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Jenis_kelamin | varchar | berisikan password untuk login admin dan user |
+| Tempat_tanggal_lahir | varchar | untuk membedakan level saat login antara admin dan user |
+| Agama | varchar | Nomer auto increment Id_user|
+| Alamat | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Anak_ke | varchar | berisikan password untuk login admin dan user |
+| Sekolah_asal | varchar | untuk membedakan level saat login antara admin dan user |
+| Nama_orangtua | varchar | Nomer auto increment Id_user|
+| Alamat_orangtua | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Pekerjaan_orangtua | varchar | berisikan password untuk login admin dan user |
+| No_Telp_OrangTua | varchar | untuk membedakan level saat login antara admin dan user |
+| Nama_wali | varchar | Nomer auto increment Id_user|
+| Alamat_wali | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Pekerjaan_wali | varchar | berisikan password untuk login admin dan user |
+| Kartu_keluarga | varchar | untuk membedakan level saat login antara admin dan user |
+| Akte_kelahiran | varchar | Nomer auto increment Id_user|
+| Ijazah_terakhir | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Raport | varchar | berisikan password untuk login admin dan user |
+| Pas_photo | varchar | untuk membedakan level saat login antara admin dan user |
 
-**Tabel Warga**
 
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| NIK | varchar | nomer kependudukan|
-| Nama | varchar | nomer kependudukan|
-| jns_kelamin | varchar | Identifikasi jenis kelamin|
-| Tgl_lahir | date | tanggal lahir peserta |
-| Agama | varchar | Identifikasi agama |
-
-**Tabel Pegawai**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pegawai| int | Nomer auto increment Id_bioadmin|
-| Id_user| int | untuk mengambil username dan password admin pada tabel user|
-| nik| varchar | nik admin|
-| jabatan | varchar | mendefinisikan level user |
-| tgl_masuk | date | awal jabatan|
-| tgl_keluar | date | akhir jabatan|
-
-**Tabel Kelahiran**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kelahiran| int | Nomer auto increment Id_kelahiran|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_lahir| date | tanggal lahir anak |
-| jns_kelamin| varchar | jenis kelamin anak|
-| ayah | varchar | nama ayah|
-| ibu | varchar | nama ibu|
-| tmp_lahir| varchar | tempat lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
-
-**Tabel Kematian**
+**Tabel Seleksi**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kematian| int | Nomer auto increment Id_kematian|
-| Id_warga| int | foreignt key tabel warga |
-| tmp_kematian| varchar | tempat lahir anak |
-| tgl_kematian| date | tanggal lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
+| Id_seleksi | varchar | Nomor auto increment Id_seleksi |
+| Jenis_seleksi | varchar | nomer kependudukan|
+| Tanggal_seleksi | date | Identifikasi jenis kelamin|
+| Jam_seleksi | time | tanggal lahir peserta |
+| Tempat_seleksi | varchar | Identifikasi agama |
+| Hasil_seleksi | varchar | Identifikasi agama |
 
-**Tabel Pekerjaan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pekerjaan| int | Nomer auto increment Id_pekerjaan|
-| Id_warga| int | foreignt key tabel warga |
-| pekerjaan| varchar | pekerjaan masyarakat  |
-| tgl_input | date | tanggal input pekerjaan |
-
-**Tabel Pendidikan**
+**Tabel Panitia PSB**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pendidikan| int | Nomer auto increment Id_pendidikan|
-| Id_warga| int | foreignt key tabel warga |
-| pendidikan| varchar | pendidikan masyarakat  |
-| tgl_masuk | date | tanggal masuk pendidikan |
+| Id_panitia_psb | int | Nomer auto increment Id_panitia_psb |
+| Email_panitia_psb | varchar | untuk mengambil username dan password admin pada tabel user|
+| Nama_panitia_psb | varchar | nik admin|
+| Password_panitia_psb | varchar | mendefinisikan level user |
 
-**Tabel ktp**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_ktp| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_ktp| varchar | Identifikasi memiliki atau belum memiliki ktp |
-| masa_berlaku | date | tanggal berlaku ktp |
-
-**Tabel kk**
+**Tabel Data Siswa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kk| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| kepala_keluarga| varchar | nama kepala keluarga |
-| no_kk | varchar | nomor kk |
-
-**Tabel pindah**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pindah| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_pindah | date | tanggal akan pindah |
-| ket | varchar | alamat pindah |
-
-**Tabel datang**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_datang| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_datang | date | tanggal kedatangan |
-| ket | varchar | alamat sebelum datang |
-
-**Tabel pilih**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pilih| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_pilih | varchar | hak pilih |
-
-**Tabel kawin**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kawin| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_kawin | varchar | status warga |
-
-**Tabel Laporan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_laporan| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| laporan | varchar | berisi laporan kependudukan |
-
-**Tabel Agama**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_agama| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| agama| varchar | berisi agama penduduk |
-
+| Id_siswa| int | Nomer auto increment Id_siswa |
+| NIS | int | foreignt key tabel warga |
+| Nama_siswa | varchar| tanggal lahir anak |
+| kelas | varchar | jenis kelamin anak|
+| tanggal_penerimaan | date | nama ayah|
+| tahun_ajaran | date | nama ibu|
 
 
