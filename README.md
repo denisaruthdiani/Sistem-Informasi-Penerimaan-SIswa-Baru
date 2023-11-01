@@ -787,5 +787,5 @@ Bab 3.4 Validasi Data
 
 **3.4.2 Dokumentasi Wawancara**
 ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Dokumentasi%20Wawancara%201.jpg)
-![](
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Dokumentasi%20Wawancara%202.jpg)
 
