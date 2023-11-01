@@ -717,7 +717,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_calon_siswa| varchar | Nomer auto increment Id_calon_siswa |
+| Id_calon_siswa| varchar | Nomor auto increment Id_calon_siswa |
 | Username| varchar | berisikan nama pengguna yang digunakan oleh calon siswa untuk masuk ke sistem penerimaan siswa  |
 | Email | varchar | berisikan  Alamat email calon siswa. Dapat digunakan untuk komunikasi dan verifikasi |
 | Password | varchar | Kata sandi atau sandi yang digunakan oleh calon siswa untuk mengamankan akun mereka |
@@ -758,7 +758,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_panitia_psb | int | Nomer auto increment Id_panitia_psb |
+| Id_panitia_psb | int | Nomor auto increment Id_panitia_psb |
 | Email_panitia_psb | varchar | Alamat email panitia PSB, digunakan untuk komunikasi dan masuk ke sistem atau portal panitia PSB.|
 | Nama_panitia_psb | varchar | Nama lengkap anggota panitia PSB |
 | Password_panitia_psb | varchar | Kata sandi  yang digunakan oleh anggota panitia PSB untuk mengamankan akun mereka |
@@ -767,7 +767,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_siswa| int | Nomer auto increment Id_siswa |
+| Id_siswa| int | Nomor auto increment Id_siswa |
 | NIS | int | Nomor unik yang digunakan untuk mengidentifikasi siswa yang sudah diterima |
 | Nama_siswa | varchar| Nama lengkap siswa yang sudah diterima |
 | kelas | varchar | Kelas siswa yang sudah diterima |
