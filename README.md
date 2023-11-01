@@ -1,29 +1,5 @@
 ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/cover.png)
 
-<html>
-<body>
-<div align="center"><h1> Software Requirements Spesification </h1></div>
-
-<p align="center"><b>Version 1.7 </b><br>
-<p align="center">23 Oktober 2023 </b>
-<p align="center">
-
-</p>
-
-<p align="center"><b> Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II <br>
-</b>
-<p align="center">Kelompok 3 <br>
-Daud Markhesywan    (2257301030)<br>
-Denisa Ruthdiani Siagian    (2257301031)<br>
-Desfian Zahta Gunawan   (2257301032)<br><br><br>
-
-<p align="center"><b>Jurusan Teknik Informasi</b><br>
-<p align="center"><b>Politeknik Caltex Riau</b>
-<p align="center"><b>2023</b>
-</p>
-</body>
-</html>
-
 **BAB I Pendahuluan**
 ----------
 1.1 Tujuan
