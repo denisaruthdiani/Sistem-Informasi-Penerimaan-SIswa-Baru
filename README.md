@@ -46,9 +46,10 @@ Sistem Informasi Penerimaan Mahasiswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II 
 1.4 Referensi
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah:
--
--
--
+
+-https://www.researchgate.net/publication/350967595_Sistem_Informasi_Penerimaan_Peserta_Didik_Baru_Berbasis_Web
+-https://media.neliti.com/media/publications/293445-sistem-informasi-penerimaan-peserta-didi-edf62154.pdf
+-https://github.com/jakariaaa27/RPL-D-1/blob/master/SRS.md?plain=1
 
 1.5 Overview
 ---------
@@ -57,23 +58,26 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelas
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi dibidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari.
-Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana website sebagai admin, panitia PSB dan calon siswa. Sistem yang kami buat di dalamnya terdapat berikut adalah sistem penerimaan Al-Azhar:
-1. Pendaftaran Online
-2. Proses seleksi
-3. Pengumuman Hasil
-4. Proses Registrasi
-5. Orientasi Siswa Baru
-6. Pemantauan Akademik
-7. Bimbingan dan Konseling
-8. Pembaruan Informasi
-9. Keamanan Data
+Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana website sebagai admin, panitia PSB dan calon siswa. Berikut akan kami jelaskan sistem software kami, panitia PSB fungsi utama yaitu : 
+1. Pendaftaran Calon Siswa
+2. Verifikasi dokumen
+3. Seleksi Siswa
+4. Pengumuman hasil seleksi
+5. Pendaftaran siswa yang diterima
+6. Pengelolaan data siswa
+7. Komunikasi dengan calon siswa
+8. Pelaporan dan analisis
 
-Berikut ini fungsi user dalam bentuk grafik :
+Berikut ini fungsi calon siswa dalam bentuk grafik :
 
-1. Isi biodata
-2. 
-3. 
-4. 
+1. Input Pendaftaran
+2. Melengkapi dokumen
+3. Mengikuti seleksi
+4. Melihat hasil seleksi
+5. Pendaftaran siswa yang diterima
+6. Memperbarui informasi pribadi
+7. Menghubungi panitia PSB
+8. Mengikuti Panduan
 
 2.1 Perspektif Produk
 ----------
@@ -86,6 +90,9 @@ Pada sistem informasi penerimaan siswa baru ini akan menampilkan grafik penerima
 Sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II memiliki 2 user yaitu panitia PSB dan calon siswa. Panitia PSB mempunyai fungsi yaitu melakukan view grafik, bisa view laporan, mengelola data. Calon siswa untuk melakukan pendaftaran dan registrasi.
 
 **2.1.2 Antarmuka Pengguna**
+
+
+
 
 **2.1.3 Antarmuka Perangkat Keras**
 ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/antarmukaperangkatkeras.drawio.png)
