@@ -701,9 +701,9 @@ Logika Struktur terdapat pada bagian 3.3.1
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/commit/8299de50b02bbf89a43c779cf1c654b3dc640c40)
 
 **Tabel User**
 
