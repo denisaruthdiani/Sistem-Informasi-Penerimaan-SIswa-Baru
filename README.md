@@ -24,9 +24,9 @@ Sistem Informasi Penerimaan Mahasiswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II 
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah:
 1. https://www.researchgate.net/publication/350967595_Sistem_Informasi_Penerimaan_Peserta_Didik_Baru_Berbasis_Web
-   
 2. https://media.neliti.com/media/publications/293445-sistem-informasi-penerimaan-peserta-didi-edf62154.pdf
-- https://github.com/jakariaaa27/RPL-D-1/blob/master/SRS.md?plain=1
+3. 
+https://github.com/jakariaaa27/RPL-D-1/blob/master/SRS.md?plain=1
 
 1.5 Overview
 ---------
