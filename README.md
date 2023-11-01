@@ -711,29 +711,29 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_calon_siswa| varchar | Nomer auto increment Id_calon_siswa |
-| Username| varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Email | varchar | berisikan password untuk login admin dan user |
-| Password | varchar | untuk membedakan level saat login antara admin dan user |
-| NISN | int | Nomer auto increment Id_user|
-| Nama_lengkap | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Jenis_kelamin | varchar | berisikan password untuk login admin dan user |
-| Tempat_tanggal_lahir | varchar | untuk membedakan level saat login antara admin dan user |
-| Agama | varchar | Nomer auto increment Id_user|
-| Alamat | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Anak_ke | varchar | berisikan password untuk login admin dan user |
-| Sekolah_asal | varchar | untuk membedakan level saat login antara admin dan user |
-| Nama_orangtua | varchar | Nomer auto increment Id_user|
-| Alamat_orangtua | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Pekerjaan_orangtua | varchar | berisikan password untuk login admin dan user |
-| No_Telp_OrangTua | varchar | untuk membedakan level saat login antara admin dan user |
-| Nama_wali | varchar | Nomer auto increment Id_user|
-| Alamat_wali | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Pekerjaan_wali | varchar | berisikan password untuk login admin dan user |
-| Kartu_keluarga | varchar | untuk membedakan level saat login antara admin dan user |
-| Akte_kelahiran | varchar | Nomer auto increment Id_user|
-| Ijazah_terakhir | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Raport | varchar | berisikan password untuk login admin dan user |
-| Pas_photo | varchar | untuk membedakan level saat login antara admin dan user |
+| Username| varchar | berisikan nama pengguna yang digunakan oleh calon siswa untuk masuk ke sistem penerimaan siswa  |
+| Email | varchar | berisikan  Alamat email calon siswa. Dapat digunakan untuk komunikasi dan verifikasi |
+| Password | varchar | Kata sandi atau sandi yang digunakan oleh calon siswa untuk mengamankan akun mereka |
+| NISN | int | Nomor unik yang dikeluarkan oleh pemerintah yang digunakan untuk mengidentifikasi siswa secara nasional |
+| Nama_lengkap | varchar | Nama lengkap calon siswa |
+| Jenis_kelamin | varchar | Jenis kelamin calon siswa  |
+| Tempat_tanggal_lahir | varchar | Tempat dan tanggal lahir calon siswa |
+| Agama | varchar | Agama atau kepercayaan calon siswa |
+| Alamat | varchar | Alamat tempat tinggal calon siswa |
+| Anak_ke | varchar | Urutan calon siswa dalam keluarga, misalnya, "anak ke-2." |
+| Sekolah_asal | varchar | Nama sekolah asal yang dihadiri oleh calon siswa sebelumnya |
+| Nama_orangtua | varchar |Nama orang tua calon siswa|
+| Alamat_orangtua | varchar | Alamat tempat tinggal orang tua calon siswa |
+| Pekerjaan_orangtua | varchar | Pekerjaan orang tua calon siswa |
+| No_Telp_OrangTua | varchar | Nomor telepon yang dapat dihubungi untuk menghubungi orang tua calon siswa |
+| Nama_wali | varchar | Nama wali calon siswa jika orang tua tidak menjadi wali |
+| Alamat_wali | varchar | Alamat tempat tinggal wali calon siswa jika berbeda dengan orang tua |
+| Pekerjaan_wali | varchar |Pekerjaan wali calon siswa jika berbeda dengan orang tua |
+| Kartu_keluarga | varchar | Dokumen kartu keluarga yang mungkin digunakan sebagai bukti identitas atau alamat |
+| Akte_kelahiran | varchar |Dokumen akte kelahiran calon siswa |
+| Ijazah_terakhir | varchar | Dokumen ijazah terakhir yang mungkin diperlukan sebagai syarat pendaftaran |
+| Raport | varchar |  Dokumen raport atau catatan akademis dari sekolah sebelumnya |
+| Pas_photo | varchar | Foto calon siswa yang digunakan untuk keperluan identifikasi |
 
 
 **Tabel Seleksi**
@@ -741,30 +741,30 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_seleksi | varchar | Nomor auto increment Id_seleksi |
-| Jenis_seleksi | varchar | nomer kependudukan|
-| Tanggal_seleksi | date | Identifikasi jenis kelamin|
-| Jam_seleksi | time | tanggal lahir peserta |
-| Tempat_seleksi | varchar | Identifikasi agama |
-| Hasil_seleksi | varchar | Identifikasi agama |
+| Jenis_seleksi | varchar |  Menyatakan jenis seleksi atau tes yang dilakukan, misalnya, "Tes Tulis," "Wawancara," "Psikotest" |
+| Tanggal_seleksi | date | Tanggal ketika seleksi dilakukan |
+| Jam_seleksi | time | Jam atau waktu kapan seleksi dilakukan |
+| Tempat_seleksi | varchar | Lokasi atau tempat di mana seleksi dilakukan, misalnya, "Gedung Sekolah XYZ." |
+| Hasil_seleksi | varchar | Hasil atau status seleksi calon siswa, seperti "Lulus" atau "Tidak Lulus." Apakah calon siswa diterima berdasarkan hasil seleksi tersebut |
 
 **Tabel Panitia PSB**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_panitia_psb | int | Nomer auto increment Id_panitia_psb |
-| Email_panitia_psb | varchar | untuk mengambil username dan password admin pada tabel user|
-| Nama_panitia_psb | varchar | nik admin|
-| Password_panitia_psb | varchar | mendefinisikan level user |
+| Email_panitia_psb | varchar | Alamat email panitia PSB, digunakan untuk komunikasi dan masuk ke sistem atau portal panitia PSB.|
+| Nama_panitia_psb | varchar | Nama lengkap anggota panitia PSB |
+| Password_panitia_psb | varchar | Kata sandi  yang digunakan oleh anggota panitia PSB untuk mengamankan akun mereka |
 
 **Tabel Data Siswa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_siswa| int | Nomer auto increment Id_siswa |
-| NIS | int | foreignt key tabel warga |
-| Nama_siswa | varchar| tanggal lahir anak |
-| kelas | varchar | jenis kelamin anak|
-| tanggal_penerimaan | date | nama ayah|
-| tahun_ajaran | date | nama ibu|
+| NIS | int | Nomor unik yang digunakan untuk mengidentifikasi siswa yang sudah diterima |
+| Nama_siswa | varchar| Nama lengkap siswa yang sudah diterima |
+| kelas | varchar | Kelas atau program studi yang diikuti oleh siswa yang sudah diterima |
+| tanggal_penerimaan | date |Tanggal ketika siswa diterima resmi |
+| tahun_ajaran | date |  Tahun ajaran ketika siswa diterima dimana tahun akademik atau tahun pelajaran yang sedang berlangsung.|
 
 
