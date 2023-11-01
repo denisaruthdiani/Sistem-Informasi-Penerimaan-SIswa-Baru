@@ -774,4 +774,17 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | tanggal_penerimaan | date |Tanggal ketika siswa diterima resmi |
 | tahun_ajaran | date |  Tahun ajaran ketika siswa diterima dimana tahun akademik atau tahun pelajaran yang sedang berlangsung.|
 
+Bab 3.4 Validasi Data
+----------
+
+**3.4.1 JobDesk**
+
+| Nama | JobDesk |  
+| ------ | ------ |
+| Daud Markhesywan | Design |
+| Denisa Ruthdiani Siagian | SRS |
+| Desfian Zahta Gunawan | Design |
+
+**3.4.2 Dokumentasi Wawancara**
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-ERD.jpg)
 
