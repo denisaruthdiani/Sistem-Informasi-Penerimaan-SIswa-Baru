@@ -716,7 +716,9 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Akte_kelahiran | varchar |Dokumen akte kelahiran calon siswa |
 | Ijazah_terakhir | varchar | Dokumen ijazah terakhir yang mungkin diperlukan sebagai syarat pendaftaran |
 | Raport | varchar |  Dokumen raport atau catatan akademis dari sekolah sebelumnya |
-| Pas_photo | varchar | Foto calon siswa yang digunakan untuk keperluan identifikasi |
+| Pas_photo | image | Foto calon siswa yang digunakan untuk keperluan identifikasi |
+| Status_penerimaan | varchar | Status penerimaan siswa|
+| Tanggal_penerimaan | date | Tanggal ketika siswa diterima resmi |
 
 
 **Tabel Seleksi**
@@ -735,20 +737,24 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_panitia_psb | int | Nomor auto increment Id_panitia_psb |
-| Email_panitia_psb | varchar | Alamat email panitia PSB, digunakan untuk komunikasi dan masuk ke sistem atau portal panitia PSB.|
+| Email_panitia_psb | varchar | Alamat email panitia PSB, digunakan untuk komunikasi dan masuk ke sistem atau portal panitia PSB |
 | Nama_panitia_psb | varchar | Nama lengkap anggota panitia PSB |
 | Password_panitia_psb | varchar | Kata sandi  yang digunakan oleh anggota panitia PSB untuk mengamankan akun mereka |
 
-**Tabel Data Siswa**
+**Tabel Soal**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_siswa| int | Nomor auto increment Id_siswa |
-| NIS | int | Nomor unik yang digunakan untuk mengidentifikasi siswa yang sudah diterima |
-| Nama_siswa | varchar| Nama lengkap siswa yang sudah diterima |
-| kelas | varchar | Kelas siswa yang sudah diterima |
-| tanggal_penerimaan | date |Tanggal ketika siswa diterima resmi |
-| tahun_ajaran | date |  Tahun ajaran ketika siswa diterima dimana tahun akademik atau tahun pelajaran yang sedang berlangsung.|
+| Id_soal| int | Nomor auto increment Id_soal |
+| Jenis_soal | varchar |Jenis soal, misalnya, soal pilihan ganda, soal esai, atau jenis soal lainnya |
+| Deskripsi_soal | varchar| Deskripsi atau teks soal yang berisi pertanyaan atau tugas yang harus dijawab oleh calon siswa |
+| Materi_soal | varchar | Materi atau topik yang diuji oleh soal tersebut. Ini bisa mencakup mata pelajaran, keterampilan tertentu, atau topik seleksi lainnya |
+| Kunci_jawaban | varchar |Jawaban yang benar atau kunci jawaban untuk soal tersebut, terutama relevan untuk soal pilihan ganda |
+| Skor_maksimal | int |  Skor maksimal yang dapat diperoleh oleh calon siswa jika mereka menjawab dengan benar|
+| Waktu_pengerjaan| int |Waktu yang diberikan untuk menjawab soal, jika ada batasan waktu |
+| Tingkat_kesulitan | varchar | Tingkat kesulitan soal, misalnya, mudah, sedang, atau sulit |
+| Kategori_soal | varchar |Kategori atau subyek tertentu yang terkait dengan soal, seperti matematika, bahasa Inggris, atau kategori lainnya |
+| Gambar Soal | image |Jika soal memerlukan gambar atau ilustrasi, atribut ini bisa berisi tautan atau referensi ke gambar tersebut |
 
 Bab 3.4 Validasi Data
 ----------
