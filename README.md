@@ -716,7 +716,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Akte_kelahiran | varchar |Dokumen akte kelahiran calon siswa |
 | Ijazah_terakhir | varchar | Dokumen ijazah terakhir yang mungkin diperlukan sebagai syarat pendaftaran |
 | Raport | varchar |  Dokumen raport atau catatan akademis dari sekolah sebelumnya |
-| Pas_photo | image | Foto calon siswa yang digunakan untuk keperluan identifikasi |
+| Pas_photo | varchar | Foto calon siswa yang digunakan untuk keperluan identifikasi |
 | Status_penerimaan | varchar | Status penerimaan siswa|
 | Tanggal_penerimaan | date | Tanggal ketika siswa diterima resmi |
 
@@ -754,7 +754,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Waktu_pengerjaan| int |Waktu yang diberikan untuk menjawab soal, jika ada batasan waktu |
 | Tingkat_kesulitan | varchar | Tingkat kesulitan soal, misalnya, mudah, sedang, atau sulit |
 | Kategori_soal | varchar |Kategori atau subyek tertentu yang terkait dengan soal, seperti matematika, bahasa Inggris, atau kategori lainnya |
-| Gambar Soal | image |Jika soal memerlukan gambar atau ilustrasi, atribut ini bisa berisi tautan atau referensi ke gambar tersebut |
+| Gambar Soal | varchar |Jika soal memerlukan gambar atau ilustrasi, atribut ini bisa berisi tautan atau referensi ke gambar tersebut |
 
 Bab 3.4 Validasi Data
 ----------
