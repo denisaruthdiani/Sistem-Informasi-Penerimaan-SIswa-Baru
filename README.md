@@ -694,9 +694,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_calon_siswa| varchar | Nomor auto increment Id_calon_siswa |
-| Username| varchar | berisikan nama pengguna yang digunakan oleh calon siswa untuk masuk ke sistem penerimaan siswa  |
 | Email | varchar | berisikan  Alamat email calon siswa. Dapat digunakan untuk komunikasi dan verifikasi |
-| Password | varchar | Kata sandi atau sandi yang digunakan oleh calon siswa untuk mengamankan akun mereka |
 | NISN | int | Nomor unik yang dikeluarkan oleh pemerintah yang digunakan untuk mengidentifikasi siswa secara nasional |
 | Nama_lengkap | varchar | Nama lengkap calon siswa |
 | Jenis_kelamin | varchar | Jenis kelamin calon siswa  |
@@ -706,12 +704,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Anak_ke | varchar | Urutan calon siswa dalam keluarga, misalnya, "anak ke-2." |
 | Sekolah_asal | varchar | Nama sekolah asal yang dihadiri oleh calon siswa sebelumnya |
 | Nama_orangtua | varchar |Nama orang tua calon siswa|
-| Alamat_orangtua | varchar | Alamat tempat tinggal orang tua calon siswa |
-| Pekerjaan_orangtua | varchar | Pekerjaan orang tua calon siswa |
 | No_Telp_OrangTua | varchar | Nomor telepon yang dapat dihubungi untuk menghubungi orang tua calon siswa |
-| Nama_wali | varchar | Nama wali calon siswa jika orang tua tidak menjadi wali |
-| Alamat_wali | varchar | Alamat tempat tinggal wali calon siswa jika berbeda dengan orang tua |
-| Pekerjaan_wali | varchar |Pekerjaan wali calon siswa jika berbeda dengan orang tua |
 | Kartu_keluarga | varchar | Dokumen kartu keluarga yang mungkin digunakan sebagai bukti identitas atau alamat |
 | Akte_kelahiran | varchar |Dokumen akte kelahiran calon siswa |
 | Ijazah_terakhir | varchar | Dokumen ijazah terakhir yang mungkin diperlukan sebagai syarat pendaftaran |
@@ -720,7 +713,6 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Status_penerimaan | varchar | Status penerimaan siswa|
 | Tanggal_penerimaan | date | Tanggal ketika siswa diterima resmi |
 
-
 **Tabel Seleksi**
 
 | Data Item | Type | Deskripsi |
@@ -728,7 +720,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Id_seleksi | varchar | Nomor auto increment Id_seleksi |
 | Jenis_seleksi | varchar |  Menyatakan jenis seleksi atau tes yang dilakukan, misalnya, "Tes Tulis," "Wawancara," "Psikotest" |
 | Tanggal_seleksi | date | Tanggal ketika seleksi dilakukan |
-| Jam_seleksi | time | Jam atau waktu kapan seleksi dilakukan |
+| Waktu_seleksi | time | Jam atau waktu kapan seleksi dilakukan |
 | Tempat_seleksi | varchar | Lokasi atau tempat di mana seleksi dilakukan, misalnya, "Gedung Sekolah XYZ." |
 | Hasil_seleksi | varchar | Hasil atau status seleksi calon siswa, seperti "Lulus" atau "Tidak Lulus." Apakah calon siswa diterima berdasarkan hasil seleksi tersebut |
 
@@ -746,14 +738,12 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_soal| varchar| Nomor auto increment Id_soal |
-| Jenis_soal | varchar |Jenis soal, misalnya, soal pilihan ganda, soal esai, atau jenis soal lainnya |
+| Kategori_soal | varchar |Kategori atau subyek tertentu yang terkait dengan soal, seperti matematika, bahasa Inggris, atau kategori lainnya |
+| Materi_soal | varchar | Materi atau topik yang diuji oleh soal tersebut |
 | Deskripsi_soal | varchar| Deskripsi atau teks soal yang berisi pertanyaan atau tugas yang harus dijawab oleh calon siswa |
-| Materi_soal | varchar | Materi atau topik yang diuji oleh soal tersebut. Ini bisa mencakup mata pelajaran, keterampilan tertentu, atau topik seleksi lainnya |
 | Kunci_jawaban | varchar |Jawaban yang benar atau kunci jawaban untuk soal tersebut, terutama relevan untuk soal pilihan ganda |
 | Skor_maksimal | int |  Skor maksimal yang dapat diperoleh oleh calon siswa jika mereka menjawab dengan benar|
 | Waktu_pengerjaan| int |Waktu yang diberikan untuk menjawab soal, jika ada batasan waktu |
-| Tingkat_kesulitan | varchar | Tingkat kesulitan soal, misalnya, mudah, sedang, atau sulit |
-| Kategori_soal | varchar |Kategori atau subyek tertentu yang terkait dengan soal, seperti matematika, bahasa Inggris, atau kategori lainnya |
 | Gambar Soal | varchar |Jika soal memerlukan gambar atau ilustrasi, atribut ini bisa berisi tautan atau referensi ke gambar tersebut |
 
 Bab 3.4 Validasi Data
