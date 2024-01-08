@@ -694,7 +694,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_calon_siswa| varchar | Nomor auto increment Id_calon_siswa |
-| Email | varchar | berisikan  Alamat email calon siswa. Dapat digunakan untuk komunikasi dan verifikasi |
+| Email | varchar | Alamat email calon siswa. Dapat digunakan untuk komunikasi dan verifikasi |
 | NISN | int | Nomor unik yang dikeluarkan oleh pemerintah yang digunakan untuk mengidentifikasi siswa secara nasional |
 | Nama_lengkap | varchar | Nama lengkap calon siswa |
 | Jenis_kelamin | varchar | Jenis kelamin calon siswa  |
@@ -706,7 +706,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Nama_orangtua | varchar |Nama orang tua calon siswa|
 | No_Telp_OrangTua | varchar | Nomor telepon yang dapat dihubungi untuk menghubungi orang tua calon siswa |
 | Kartu_keluarga | varchar | Dokumen kartu keluarga yang mungkin digunakan sebagai bukti identitas atau alamat |
-| Akte_kelahiran | varchar |Dokumen akte kelahiran calon siswa |
+| Akte_kelahiran | varchar | Dokumen akte kelahiran calon siswa |
 | Ijazah_terakhir | varchar | Dokumen ijazah terakhir yang mungkin diperlukan sebagai syarat pendaftaran |
 | Raport | varchar |  Dokumen raport atau catatan akademis dari sekolah sebelumnya |
 | Pas_photo | varchar | Foto calon siswa yang digunakan untuk keperluan identifikasi |
@@ -721,7 +721,7 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Jenis_seleksi | varchar |  Menyatakan jenis seleksi atau tes yang dilakukan, misalnya, "Tes Tulis," "Wawancara," "Psikotest" |
 | Tanggal_seleksi | date | Tanggal ketika seleksi dilakukan |
 | Waktu_seleksi | time | Jam atau waktu kapan seleksi dilakukan |
-| Tempat_seleksi | varchar | Lokasi atau tempat di mana seleksi dilakukan, misalnya, "Gedung Sekolah XYZ." |
+| Tempat_seleksi | varchar | Lokasi atau tempat di mana seleksi dilakukan, misalnya "Gedung Sekolah XYZ." |
 | Hasil_seleksi | varchar | Hasil atau status seleksi calon siswa, seperti "Lulus" atau "Tidak Lulus." Apakah calon siswa diterima berdasarkan hasil seleksi tersebut |
 
 **Tabel Panitia PSB**
@@ -729,22 +729,22 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_panitia_psb | varchar | Nomor auto increment Id_panitia_psb |
-| Email_panitia_psb | varchar | Alamat email panitia PSB, digunakan untuk komunikasi dan masuk ke sistem atau portal panitia PSB |
-| Nama_panitia_psb | varchar | Nama lengkap anggota panitia PSB |
-| Password_panitia_psb | varchar | Kata sandi  yang digunakan oleh anggota panitia PSB untuk mengamankan akun mereka |
+| Email_panitia_psb | varchar | Alamat email panitia PSB, digunakan masuk ke sistem atau portal panitia PSB |
+| Nama_panitia_psb | varchar | Nama lengkap panitia PSB |
+| Password_panitia_psb | varchar | Kata sandi  yang digunakan oleh panitia PSB untuk mengamankan akun mereka |
 
 **Tabel Soal**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_soal| varchar| Nomor auto increment Id_soal |
-| Kategori_soal | varchar |Kategori atau subyek tertentu yang terkait dengan soal, seperti matematika, bahasa Inggris, atau kategori lainnya |
+| Kategori_soal | varchar | Kategori atau subyek tertentu yang terkait dengan soal, seperti matematika, bahasa Inggris, atau kategori lainnya |
 | Materi_soal | varchar | Materi atau topik yang diuji oleh soal tersebut |
 | Deskripsi_soal | varchar| Deskripsi atau teks soal yang berisi pertanyaan atau tugas yang harus dijawab oleh calon siswa |
-| Kunci_jawaban | varchar |Jawaban yang benar atau kunci jawaban untuk soal tersebut, terutama relevan untuk soal pilihan ganda |
-| Skor_maksimal | int |  Skor maksimal yang dapat diperoleh oleh calon siswa jika mereka menjawab dengan benar|
-| Waktu_pengerjaan| int |Waktu yang diberikan untuk menjawab soal, jika ada batasan waktu |
-| Gambar Soal | varchar |Jika soal memerlukan gambar atau ilustrasi, atribut ini bisa berisi tautan atau referensi ke gambar tersebut |
+| Kunci_jawaban | varchar | Jawaban yang benar atau kunci jawaban untuk soal tersebut, terutama relevan untuk soal pilihan ganda |
+| Skor_maksimal | int | Skor maksimal yang dapat diperoleh oleh calon siswa jika mereka menjawab dengan benar|
+| Waktu_pengerjaan| int | Waktu yang diberikan untuk menjawab soal |
+| Gambar Soal | varchar | Jika soal memerlukan gambar atau ilustrasi, atribut ini bisa berisi tautan atau referensi ke gambar tersebut |
 
 Bab 3.4 Validasi Data
 ----------
