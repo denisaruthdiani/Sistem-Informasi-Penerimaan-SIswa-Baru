@@ -34,26 +34,23 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelas
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi dibidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari.
-Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana website sebagai admin, panitia PSB dan calon siswa. Berikut akan kami jelaskan sistem software kami, panitia PSB fungsi utama yaitu : 
-1. Pendaftaran Calon Siswa
-2. Verifikasi dokumen
-3. Seleksi Siswa
-4. Pengumuman hasil seleksi
-5. Pendaftaran siswa yang diterima
-6. Pengelolaan data siswa
-7. Komunikasi dengan calon siswa
-8. Pelaporan dan analisis
+Dalam studi kasus ini kami menganalisis kebutuhan suatu sekolah didaerah Pekanbaru. Kasus yang kami peroleh pembuatan laporan penerimaan siswa baru. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II . Sehingga memudahkan dalam menginputkan data-data calon siswa. Software yang kami buat ini berbasis website dimana panitia PSB sebagai admin dan calon siswa. Berikut akan kami jelaskan sistem software kami, panitia PSB fungsi utama yaitu : 
+1. Verifikasi biodata dan dokumen calon siswa
+2. Seleksi Siswa
+3. Pengumuman hasil seleksi
+4. Pendaftaran siswa yang diterima
+5. Pengelolaan data siswa
+6. Komunikasi dengan calon siswa
 
 Berikut ini fungsi calon siswa dalam bentuk grafik :
 
-1. Input Pendaftaran
+1. Mengisi biodata calon siswa
 2. Melengkapi dokumen
 3. Mengikuti seleksi
 4. Melihat hasil seleksi
 5. Pendaftaran siswa yang diterima
 6. Memperbarui informasi pribadi
 7. Menghubungi panitia PSB
-8. Mengikuti Panduan
 
 2.1 Perspektif Produk
 ----------
