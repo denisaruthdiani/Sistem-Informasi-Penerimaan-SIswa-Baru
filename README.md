@@ -63,7 +63,13 @@ Pada sistem informasi penerimaan siswa baru ini akan menampilkan grafik penerima
 Sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II memiliki 2 user yaitu panitia PSB dan calon siswa. Panitia PSB mempunyai fungsi yaitu melakukan view grafik, bisa view laporan, mengelola data. Calon siswa untuk melakukan pendaftaran dan mengikuti seleksi
 
 **2.1.2 Antarmuka Pengguna**
+   - **Mockup Admin ( Website )**
+|  |  |
+|--|--|
 
+   - **Mockup Calon Siswa ( Website )**
+|  |  |
+|--|--|
 
 
 
