@@ -231,7 +231,7 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.6, Mengelola Pengumuman Hasil Seleksi
 
-**2.2.8 Calon Siswa Login**
+**2.2.7 Calon Siswa Login**
 
 Use Case : Login
 
@@ -247,9 +247,28 @@ Deskripsi langkah-langkah
 3. Sistem memeriksa kecocokan informasi login yang dimasukkan dengan data yang ada di basis data pendaftaran.
 4. Jika informasi login benar, sistem memberikan akses ke informasi pendaftaran, status seleksi, dan komunikasi terkait.
 
-Xref: Bagian 3.2.8, Login
+Xref: Bagian 3.2.7, Login
 
-**2.2.11 Calon Siswa Mengunggah Dokumen Pendaftaran**
+**2.2.8 Calon Siswa Mengisi Data Pendaftaran Calon Siswa**
+
+Use Case: Mengisi Data Pendaftaran Calon Siswa
+
+Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
+
+Deskripsi singkat
+Calon siswa saat mengisi data pendaftaran mereka dalam sistem mencakup proses pengisian formulir yang diperlukan untuk menyelesaikan proses pendaftaran.
+
+Deskripsi langkah-langkah
+1. Calon siswa login ke sistem dan mengakses formulir pendaftaran.
+2. Calon siswa mengisi data pribadi mereka, termasuk nama, alamat, tempat dan tanggal lahir, dan informasi lainnya yang diperlukan.
+3. Calon siswa meninjau kembali semua data yang diisi untuk memastikan kebenaran informasi.
+4. Calon siswa mengonfirmasi bahwa semua data yang diisi benar dan lengkap.
+5. Calon siswa mengirimkan formulir pendaftaran setelah yakin bahwa semua informasi yang diisi benar.
+
+Xref : Bagian 3.2.8, Mengisi Data Pendaftaran Calon Siswa
+
+**2.2.9 Calon Siswa Mengunggah Dokumen Pendaftaran**
 
 Use Case : Mengunggah Dokumen Pendaftaran
 
@@ -266,9 +285,9 @@ Deskripsi langkah-langkah
 4. Calon Siswa mengunggah dokumen-dokumen yang diminta melalui antarmuka pengunggahan.
 5. Sistem memeriksa dan mengonfirmasi penerimaan dokumen.
 
-Xref : Bagian 3.2.11, Mengunggah Dokumen Pendaftaran
+Xref : Bagian 3.2.9, Mengunggah Dokumen Pendaftaran
 
-**2.2.12 Calon Siswa Melihat Status Pendaftaran**
+**2.2.10 Calon Siswa Melihat Status Pendaftaran**
 
 Use Case : Melihat Status Pendaftaran
 
@@ -284,9 +303,9 @@ Deskripsi langkah-langkah
 3. Sistem memeriksa informasi dan menampilkan status pendaftaran calon siswa.
 4. Calon Siswa dapat melihat apakah pendaftaran mereka diterima, ditolak, atau sedang dalam proses seleksi.
 
-Xref : Bagian 3.2.12, Melihat Status Pendaftaran
+Xref : Bagian 3.2.10, Melihat Status Pendaftaran
 
-**2.2.13 Calon Siswa Melihat Jadwal Seleksi**
+**2.2.11 Calon Siswa Melihat Jadwal Seleksi**
 
 Use Case : Melihat Jadwal Seleksi
 
@@ -301,9 +320,9 @@ Deskripsi langkah-langkah
 2. Mereka dapat memilih program atau tingkat pendidikan yang sesuai untuk melihat jadwal seleksi yang berlaku untuk mereka.
 3. Sistem menampilkan informasi jadwal seleksi, termasuk tanggal, waktu, tempat, dan instruksi terkait.
    
-Xref : Bagian 3.2.13, Melihat Jadwal Seleksi
+Xref : Bagian 3.2.11, Melihat Jadwal Seleksi
 
-**2.2.14 Calon Siswa Melihat Pengumuman Hasil Seleksi**
+**2.2.12 Calon Siswa Melihat Pengumuman Hasil Seleksi**
 
 Use Case : Melihat Pengumuman Hasil Seleksi
 
@@ -318,7 +337,7 @@ Deskripsi langkah-langkah
 2. Mereka memasukkan informasi login yang mereka gunakan saat mendaftar atau nomor referensi pendaftaran.
 3. Sistem menampilkan hasil seleksi calon siswa, seperti apakah mereka diterima, ditolak, atau berada dalam daftar tunggu.
 
-Xref : Bagian 3.2.14, Melihat Pengumuman Hasil Seleksi
+Xref : Bagian 3.2.12, Melihat Pengumuman Hasil Seleksi
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
