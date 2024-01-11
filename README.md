@@ -136,9 +136,9 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.1, Login Panitia PSB
 
-**2.2.2 Panitia PSB Mengelola Data Siswa**
+**2.2.2 Panitia PSB Mengelola Formulir Pendaftaran Siswa**
 
-Use Case: Mengelola Data Siswa
+Use Case: Mengelola Formulir Pendaftaran Siswa
 
 Diagram:
 ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
@@ -153,7 +153,7 @@ Deskripsi langkah-langkah
 4. Panitia PSB dapat memperbarui atau mengedit data siswa yang sudah ada jika diperlukan.
 5. Panitia PSB dapat menghapus data siswa jika diperlukan, misalnya jika ada duplikasi atau kesalahan.
 
-Xref : Bagian 3.2.2, Mengelola Data Siswa
+Xref : Bagian 3.2.2, Mengelola Formulir Pendaftaran Siswa
 
 **2.2.3 Panitia PSB mengelola verifikasi dokumen**
 
@@ -249,12 +249,12 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.7, Login
 
-**2.2.8 Calon Siswa Mengisi Data Pendaftaran Calon Siswa**
+**2.2.8 Calon Siswa Mengisi Formulir Pendaftaran Calon Siswa**
 
-Use Case: Mengisi Data Pendaftaran Calon Siswa
+Use Case: Mengisi Formulir Pendaftaran Calon Siswa
 
 Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-15.drawio.png)
 
 Deskripsi singkat
 Calon siswa saat mengisi data pendaftaran mereka dalam sistem mencakup proses pengisian formulir yang diperlukan untuk menyelesaikan proses pendaftaran.
@@ -266,7 +266,7 @@ Deskripsi langkah-langkah
 4. Calon siswa mengonfirmasi bahwa semua data yang diisi benar dan lengkap.
 5. Calon siswa mengirimkan formulir pendaftaran setelah yakin bahwa semua informasi yang diisi benar.
 
-Xref : Bagian 3.2.8, Mengisi Data Pendaftaran Calon Siswa
+Xref : Bagian 3.2.8, Mengisi Formulir Pendaftaran Calon Siswa
 
 **2.2.9 Calon Siswa Mengunggah Dokumen Pendaftaran**
 
