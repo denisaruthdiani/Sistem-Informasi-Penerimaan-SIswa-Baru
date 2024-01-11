@@ -69,10 +69,10 @@ Sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II memi
 |--|--|
 | ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/login%20admin.png) Pada halaman login admin diminta untuk mengisi username dan password
 | ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/beranda%20admin.png) Setelah login admin akan diarahkan kehalaman beranda
-| ![enter image description here]()
-| ![enter image description here]()
-| ![enter image description here]()
-| ![enter image description here]()
+| ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/calonsiswa%20admin.png) Kemudian dihalaman admin ada halaman data calon siswa, yang berisi email,nisn,nama lengkap, jenis kelamin, TTL, dan agama, admin dapat menerima dan menolak data tersebut, lalu calon siswa dapat mengirim kembali
+| ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/soaladmin.png) Halaman data soal, yang berisi jenis seleksi,materi soal, deskripsi soal, kunci jawaban, dan skor maksimal
+| ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/panitiaadmin.png) Halaman data panitia, yang berisi email, nama, dan password panitia
+| ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/seleksiadmin.png) Halaman seleksi siswa, yang berisi daftar calon siswa yang telah mengikuti test akademik atau psikotest
 | ![enter image description here]()
    - **Mockup Calon Siswa ( Website )**
      
