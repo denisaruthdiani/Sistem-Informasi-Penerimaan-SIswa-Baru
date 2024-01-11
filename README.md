@@ -136,7 +136,26 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.1, Login Panitia PSB
 
-**2.2.2 Panitia PSB mengelola verifikasi dokumen**
+**2.2.2 Panitia PSB Mengelola Data Siswa**
+
+Use Case: Mengelola Data Siswa
+
+Diagram:
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
+
+Deskripsi singkat
+Panitia Penerimaan Siswa Baru (PSB) mengelola data siswa yang mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk mengumpulkan, menyimpan, dan mengelola informasi pribadi dan akademik calon siswa. 
+
+Deskripsi langkah-langkah
+1. Panitia PSB memilih opsi "Mengelola Data Siswa" dalam antarmuka sistem.
+2. Sistem menampilkan daftar calon siswa yang telah mendaftar untuk penerimaan siswa baru.
+3. Panitia PSB dapat menambahkan data siswa baru, termasuk informasi pribadi dan akademik, ke dalam sistem.
+4. Panitia PSB dapat memperbarui atau mengedit data siswa yang sudah ada jika diperlukan.
+5. Panitia PSB dapat menghapus data siswa jika diperlukan, misalnya jika ada duplikasi atau kesalahan.
+
+Xref : Bagian 3.2.2, Mengelola Data Siswa
+
+**2.2.3 Panitia PSB mengelola verifikasi dokumen**
 
 Use Case : Mengelola verifikasi dokumen
 
@@ -154,9 +173,28 @@ Deskripsi langkah-langkah
 5. Panitia PSB memutuskan apakah dokumen tersebut lengkap, valid, dan memenuhi persyaratan penerimaan.
 6. Sistem mencatat hasil verifikasi dokumen dan status calon siswa yang bersangkutan.
 
-Xref: Bagian 3.2.2, Mengelola Verifikasi Dokumen
+Xref: Bagian 3.2.3, Mengelola Verifikasi Dokumen
 
-**2.2.3 Panitia PSB Seleksi Siswa**
+**2.2.4 Panitia PSB Mengelola Status Pendaftaran**
+
+Use Case : Mengelola Status Pendaftaran
+
+Diagram : 
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-12.jpg)
+
+Deskripsi Singkat  
+Panitia PSB dapat mengelola status pendaftaran calon siswa baru dalam sistem. Langkah-langkah ini mencakup pembaruan status, pemantauan perkembangan pendaftaran, dan memberikan akses kepada panitia untuk melihat dan mengelola data pendaftaran.
+
+Deskripsi langkah-langkah
+1. Panitia PSB dapat memperbarui status pendaftaran calon siswa, seperti "Dalam Proses", "Diterima", atau "Ditolak".
+2. Panitia PSB dapat memantau status pendaftaran secara keseluruhan, termasuk jumlah pendaftar, status masing-masing pendaftaran, dan statistik lainnya.
+3. Panitia PSB dapat melihat detail pendaftaran, termasuk informasi pribadi, dokumen yang diajukan, dan hasil seleksi.
+4. Panitia PSB dapat menambahkan komentar atau catatan terkait dengan status pendaftaran calon siswa.
+5. Panitia PSB dapat menghasilkan laporan pendaftaran untuk keperluan administratif atau evaluasi.
+   
+Xref : Bagian 3.2.4, Mengelola Status Pendaftaran
+
+**2.2.5 Panitia PSB Seleksi Siswa**
 
 Use Case : Seleksi Siswa
 
@@ -173,9 +211,9 @@ Deskripsi langkah-langkah
 4. Panitia PSB menilai calon siswa berdasarkan tes, wawancara, atau kriteria seleksi lainnya.
 5. Panitia PSB memutuskan apakah calon siswa diterima atau ditolak berdasarkan hasil seleksi.
 
-Xref: Bagian 3.2.3, Seleksi Siswa
+Xref: Bagian 3.2.5, Seleksi Siswa
 
-**2.2.4 Panitia PSB Mengelola Pengumuman Hasil Seleksi**
+**2.2.6 Panitia PSB Mengelola Pengumuman Hasil Seleksi**
 
 Use Case : Mengelola Pengumuman Hasil Seleksi
 
@@ -191,63 +229,7 @@ Deskripsi langkah-langkah
 3. Panitia PSB memasukkan hasil seleksi untuk masing-masing calon siswa, menunjukkan apakah mereka diterima atau ditolak.
 4. Sistem menghasilkan pengumuman hasil seleksi dan mempublikasikannya melalui website atau media lainnya yang dapat diakses oleh calon siswa dan orang tua/wali.
 
-Xref: Bagian 3.2.4, Mengelola Pengumuman Hasil Seleksi
-
-**2.2.5 Panitia PSB Mengelola Data Siswa**
-
-Use Case: Mengelola Data Siswa
-
-Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
-
-Deskripsi singkat
-Panitia Penerimaan Siswa Baru (PSB) mengelola data siswa yang mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk mengumpulkan, menyimpan, dan mengelola informasi pribadi dan akademik calon siswa. 
-
-Deskripsi langkah-langkah
-1. Panitia PSB memilih opsi "Mengelola Data Siswa" dalam antarmuka sistem.
-2. Sistem menampilkan daftar calon siswa yang telah mendaftar untuk penerimaan siswa baru.
-3. Panitia PSB dapat menambahkan data siswa baru, termasuk informasi pribadi dan akademik, ke dalam sistem.
-4. Panitia PSB dapat memperbarui atau mengedit data siswa yang sudah ada jika diperlukan.
-5. Panitia PSB dapat menghapus data siswa jika diperlukan, misalnya jika ada duplikasi atau kesalahan.
-
-Xref : Bagian 3.2.5, Mengelola Data Siswa
-
-**2.2.6 Panitia PSB Mengelola Biaya Pendaftaran**
-
-Use Case : Mengelola Biaya Pendaftaran
-
-Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-7.jpg)
-
-Deskripsi singkat
-Panitia Penerimaan Siswa Baru (PSB) mengelola biaya pendaftaran yang diperlukan dari calon siswa sebagai bagian dari proses penerimaan siswa baru. Tujuannya adalah untuk memantau, mengumpulkan, dan mengelola pembayaran biaya pendaftaran.
-
-Deskripsi langkah-langkah
-1. Panitia PSB memilih opsi "Mengelola Biaya Pendaftaran" dalam antarmuka sistem.
-2. Sistem menampilkan daftar calon siswa yang telah mendaftar dan membayar biaya pendaftaran.
-3. Panitia PSB dapat memeriksa status pembayaran biaya pendaftaran untuk masing-masing calon siswa.
-4. Panitia PSB dapat mencatat pembayaran yang diterima dari calon siswa.
-5. Panitia PSB dapat mengirimkan pemberitahuan kepada calon siswa yang belum membayar atau memberikan informasi tambahan tentang cara membayar biaya pendaftaran jika diperlukan.
-
-Xref : Bagian 3.2.6, Mengelola Biaya Pendaftaran
-
-**2.2.7 Panitia PSB Mengelola Bantuan Online**
-
-Use Case : Mengelola Bantuan Online
-
-Diagram : 
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-8.jpg)
-
-Deskripsi singkat
-Panitia Penerimaan Siswa Baru (PSB) mengelola bantuan online yang diberikan kepada calon siswa yang memerlukan bantuan atau informasi tambahan dalam proses penerimaan siswa baru. Tujuannya adalah untuk memberikan layanan bantuan dan dukungan online kepada pemohon.
-
-Deskripsi langkah-langkah
-1. Panitia PSB memilih opsi "Mengelola Bantuan Online" dalam antarmuka sistem.
-2. Sistem menampilkan daftar permintaan bantuan online yang diterima dari calon siswa.
-3. Panitia PSB dapat meninjau dan merespons permintaan bantuan online dengan memberikan informasi atau solusi yang sesuai.
-4. Sistem mencatat tanggapan atau bantuan yang diberikan kepada pemohon.
-
-Xref : Bagian 3.2.7, Mengelola Bantuan Online
+Xref: Bagian 3.2.6, Mengelola Pengumuman Hasil Seleksi
 
 **2.2.8 Calon Siswa Login**
 
@@ -266,43 +248,6 @@ Deskripsi langkah-langkah
 4. Jika informasi login benar, sistem memberikan akses ke informasi pendaftaran, status seleksi, dan komunikasi terkait.
 
 Xref: Bagian 3.2.8, Login
-
-**2.2.9 Calon Siswa Melihat Profil Sekolah**
-
-Use Case : Melihat Profil Sekolah
-
-Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-9.jpg)
-
-Deskripsi singkat
-Calon siswa yang berpotensial dapat melihat profil sekolah yang mencakup informasi tentang sejarah sekolah, fasilitas, program pendidikan, prestasi, dan informasi umum lainnya. Tujuannya adalah memberikan pemahaman kepada calon siswa dan orang tua/wali tentang sekolah yang mereka pertimbangkan untuk penerimaan siswa baru.
-
-Deskripsi langkah-langkah
-1. Calon Siswa mengunjungi situs web sekolah
-2. Mereka menjelajahi bagian "Profil Sekolah" atau "Tentang Kami" yang disediakan dalam antarmuka.
-3. Sistem menampilkan informasi tentang sejarah sekolah, fasilitas, program pendidikan, prestasi, visi-misi, dan informasi umum lainnya yang relevan.
-4. Calon Siswa  membaca dan mengeksplorasi informasi yang disajikan.
-   
-Xref: Bagian 3.2.9, Melihat Profil Sekolah
-
-**2.2.10 Calon Siswa Melakukan Pencarian Informasi Pendaftaran**
-
-Use Case: Melakukan Pencarian Informasi Pendaftaran
-
-Diagram:
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-10.jpg)
-
-Deskripsi singkat
-calon siswa mencari informasi spesifik atau topik tertentu yang relevan dengan penerimaan siswa baru di sekolah. Tujuannya adalah untuk memberikan akses cepat dan efisien ke informasi yang dibutuhkan.
-
-Deskripsi langkah-langkah
-1. Calon Siswa membuka fitur pencarian atau kotak pencarian dalam situs web 
-2. Mereka memasukkan kata kunci atau frasa yang relevan terkait dengan informasi yang mereka cari, seperti "persyaratan pendaftaran," "biaya sekolah," atau "jadwal seleksi."
-3. Sistem melakukan pencarian dalam basis data informasi yang ada di situs web atau aplikasi.
-4. Hasil pencarian ditampilkan dalam bentuk daftar berisi tautan atau artikel yang sesuai dengan kata kunci atau frasa yang dimasukkan.
-5. Calon Siswa emilih salah satu hasil pencarian untuk membaca informasi lebih lanjut.
-
-Xref : Bagian 3.2.10, Melakukan Pencarian Informasi Pendaftaran
 
 **2.2.11 Calon Siswa Mengunggah Dokumen Pendaftaran**
 
@@ -374,59 +319,6 @@ Deskripsi langkah-langkah
 3. Sistem menampilkan hasil seleksi calon siswa, seperti apakah mereka diterima, ditolak, atau berada dalam daftar tunggu.
 
 Xref : Bagian 3.2.14, Melihat Pengumuman Hasil Seleksi
-
-**2.2.15 Calon Siswa Mengunggah Bukti Pembayaran**
-
-Use Case : Mengunggah Bukti Pembayaran
-
-Diagram : 
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-15.jpg)
-
-Deskripsi singkat
-Calon siswa yang telah diterima dalam proses penerimaan siswa baru dapat mengunggah bukti pembayaran biaya pendaftaran atau biaya lain yang diperlukan sebagai langkah akhir dalam pendaftaran mereka. Tujuannya adalah untuk memastikan bahwa calon siswa telah membayar biaya yang diperlukan sebagai syarat penerimaan.
-
-Deskripsi langkah-langkah
-1. Calon Siswa membuka halaman pengunggahan bukti pembayaran di website pendaftaran
-2. Mereka memasukkan informasi login atau nomor referensi pendaftaran yang telah diberikan kepada mereka.
-3. Sistem menampilkan informasi tentang biaya yang harus dibayar dan instruksi untuk mengunggah bukti pembayaran.
-4. Calon Siswa mengunggah bukti pembayaran, seperti bukti transfer atau kwitansi pembayaran, melalui antarmuka yang disediakan.
-5. Sistem memverifikasi bukti pembayaran dan mencatat bahwa biaya telah dibayarkan.
-
-Xref : Bagian 3.2.15, Mengunggah Bukti Pembayaran
-
-**2.2.16 Calon Siswa Melihat Informasi Kontak**
-
-Use Case : Melihat Informasi Kontak
-
-Diagram : 
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-16.jpg)
-
-Deskripsi singkat
-Calon siswa dapat mengakses informasi kontak sekolah, seperti alamat, nomor telepon, email, atau alamat situs web sekolah. Tujuannya adalah untuk memberikan cara mudah bagi calon siswa dan orang tua/wali untuk menghubungi sekolah jika ada pertanyaan atau keperluan lainnya.
-
-Deskripsi langkah-langkah
-1. Calon Siswa atau Orang Tua/Wali membuka halaman informasi kontak di situs web atau aplikasi sekolah.
-2. Mereka menelusuri informasi kontak yang tersedia, termasuk alamat sekolah, nomor telepon, email, dan alamat situs web sekolah.
-3. Informasi kontak sekolah dapat digunakan untuk menghubungi sekolah jika ada pertanyaan atau keperluan lainnya.
-   
-Xref : Bagian 3.2.16, Melihat Informasi Kontak
-
-**2.2.17 Calon Siswa Melihat Bantuan Online**
-
-Use Case : Melihat Bantuan Online
-
-Diagram : 
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-17.jpg)
-
-Deskripsi singkat
-Calon siswa dapat mengakses layanan bantuan online, seperti FAQ (Frequently Asked Questions), panduan, atau chat dukungan, untuk mendapatkan informasi atau bantuan terkait proses penerimaan siswa baru. Tujuannya adalah untuk memberikan akses mudah kepada sumber daya yang dapat membantu pemohon dalam memahami prosedur penerimaan.
-
-Deskripsi langkah-langkah
-1. Calon Siswa membuka halaman bantuan online di website pendaftaran
-2. Mereka menjelajahi sumber daya bantuan yang tersedia, seperti pertanyaan yang sering diajukan, panduan pendaftaran, atau opsi untuk menghubungi dukungan online.
-3. Jika ada pertanyaan atau kebingungan, mereka dapat mencari jawaban atau meminta bantuan melalui layanan bantuan online yang disediakan.
-
-Xref : Bagian 3.2.17, Melihat Bantuan Online
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 --------------
