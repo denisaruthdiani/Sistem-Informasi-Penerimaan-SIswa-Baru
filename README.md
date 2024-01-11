@@ -566,11 +566,9 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_seleksi | varchar | Nomor auto increment Id_seleksi |
-| Jenis_seleksi | varchar |  Menyatakan jenis seleksi atau tes yang dilakukan, misalnya, "Tes Tulis," "Wawancara," "Psikotest" |
-| Tanggal_seleksi | date | Tanggal ketika seleksi dilakukan |
-| Waktu_seleksi | time | Jam atau waktu kapan seleksi dilakukan |
-| Tempat_seleksi | varchar | Lokasi atau tempat di mana seleksi dilakukan, misalnya "Gedung Sekolah XYZ." |
-| Hasil_seleksi | varchar | Hasil atau status seleksi calon siswa, seperti "Lulus" atau "Tidak Lulus." Apakah calon siswa diterima berdasarkan hasil seleksi tersebut |
+| Nama_siswa | varchar |  Nama calon siswa yang mengikuti seleksi 
+| Hasil_seleksi_akademik | varchar | Menyatakan hasil seleksi Akademik atau tes yang dilakukan |
+| Hasil_seleksi_psikotest | varchar | Menyatakan hasil seleksi Psikotest atau tes yang dilakukan |
 
 **Tabel Panitia PSB**
 
