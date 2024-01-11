@@ -537,7 +537,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-ERD.jpg)
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-ERD.drawio.png)
 
 **Tabel Calon Siswa**
 
@@ -560,8 +560,6 @@ Struktur data logika pada Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Sy
 | Ijazah_terakhir | varchar | Dokumen ijazah terakhir yang mungkin diperlukan sebagai syarat pendaftaran |
 | Raport | varchar |  Dokumen raport atau catatan akademis dari sekolah sebelumnya |
 | Pas_photo | varchar | Foto calon siswa yang digunakan untuk keperluan identifikasi |
-| Status_penerimaan | varchar | Status penerimaan siswa|
-| Tanggal_penerimaan | date | Tanggal ketika siswa diterima resmi |
 
 **Tabel Seleksi**
 
