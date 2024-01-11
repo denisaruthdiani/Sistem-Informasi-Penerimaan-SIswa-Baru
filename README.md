@@ -108,7 +108,7 @@ Tidak ada
 
 2.2 Spesifikasi Kebutuhan fungsional
 ------------
-![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/UseCaseSistemInformasiPenerimaanSiswaBaru.jpg)
+![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/UseCaseDiagram1.png)
 
 **2.2.1 Panitia PSB Login**
 
