@@ -136,15 +136,15 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.1, Login Panitia PSB
 
-**2.2.2 Panitia PSB Mengelola Formulir Pendaftaran Siswa**
+**2.2.2 Panitia PSB Mengelola Formulir Pendaftaran Calon Siswa**
 
-Use Case: Mengelola Formulir Pendaftaran Siswa
+Use Case: Mengelola Formulir Pendaftaran Calon Siswa
 
 Diagram:
 ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-6.jpg)
 
 Deskripsi singkat
-Panitia Penerimaan Siswa Baru (PSB) mengelola data siswa yang mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk mengumpulkan, menyimpan, dan mengelola informasi pribadi dan akademik calon siswa. 
+Panitia Penerimaan Siswa Baru (PSB) mengelola formulir pendaftaran calon siswa yang mendaftar untuk penerimaan siswa baru. Tujuannya adalah untuk mengumpulkan, menyimpan, dan mengelola informasi pribadi dan akademik calon siswa. 
 
 Deskripsi langkah-langkah
 1. Panitia PSB memilih opsi "Mengelola Data Siswa" dalam antarmuka sistem.
@@ -153,11 +153,11 @@ Deskripsi langkah-langkah
 4. Panitia PSB dapat memperbarui atau mengedit data siswa yang sudah ada jika diperlukan.
 5. Panitia PSB dapat menghapus data siswa jika diperlukan, misalnya jika ada duplikasi atau kesalahan.
 
-Xref : Bagian 3.2.2, Mengelola Formulir Pendaftaran Siswa
+Xref : Bagian 3.2.2, Mengelola Formulir Pendaftaran Calon Siswa
 
-**2.2.3 Panitia PSB mengelola verifikasi dokumen**
+**2.2.3 Panitia PSB Mengelola Verifikasi Dokumen**
 
-Use Case : Mengelola verifikasi dokumen
+Use Case : Mengelola Verifikasi Dokumen
 
 Diagram :
 ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-2%20(1).jpg)
@@ -348,7 +348,7 @@ Xref : Bagian 3.2.12, Melihat Pengumuman Hasil Seleksi
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
    | 2 | Perangkat Lunak dapat dipakai di semua platform OS 
   
-2.4   Karakteristik pengguna
+2.4   Karakteristik Pengguna
 --------------
 Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem dan bisa juga dengan secara langsung tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 
@@ -365,7 +365,7 @@ Maksimal penginputan ukuran gambar pada website ini adalah 2048 MB, lebih dari i
 ----------
 Tidak ada
 
-BAB III Requirement specification
+BAB III Requirement Specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
@@ -395,7 +395,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.2, Panitia PSB Mengelola Formulir Pendaftaran Calon Siswa |
 | Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
 | Precondition | Panitia PSB memiliki hak akses untuk mengelola formulir pendaftaran |
-| Basic Path | 1. Panitia PSB membuka daftar formulir pendaftaran yang masuk <br> 2. Panitia PSB memilih formulir pendaftaran calon siswa tertentu <br> 3. Panitia PSB memeriksa data yang diisi oleh calon siswa <br> 4. Panitia PSB memutuskan apakah formulir tersebut lengkap dan valid <br> 5. Jika ya, status formulir diubah menjadi "Lengkap" dan dapat diproses ke tahap selanjutnya <br> 6. Jika tidak, panitia PSB memberikan catatan atau meminta calon siswa untuk melengkapi data.
+| Basic Path | 1. Panitia PSB membuka daftar formulir pendaftaran yang masuk <br> 2. Panitia PSB memilih formulir pendaftaran calon siswa tertentu <br> 3. Panitia PSB memeriksa data yang diisi oleh calon siswa <br> 4. Panitia PSB memutuskan apakah formulir tersebut lengkap dan valid <br> 5. Jika ya, status formulir diubah menjadi "Lengkap" dan dapat diproses ke tahap selanjutnya <br> 6. Jika tidak, panitia PSB memberikan catatan atau meminta calon siswa untuk melengkapi data |
 | Alternative | Tidak ada |
 | Post-Condition | Status formulir pendaftaran calon siswa diupdate sesuai dengan hasil pengelolaan oleh panitia PSB |
 | Exception Push | Jika formulir tidak dapat diakses atau terdapat kegagalan sistem, panitia PSB memberikan notifikasi kepada tim teknis dan mencatat masalah tersebut untuk penanganan lebih lanjut |
@@ -408,10 +408,10 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.3, Mengelola Verifikasi Dokumen |
 | Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
 | Precondition | Dokumen yang diunggah harus sesuai dengan persyaratan yang telah ditentukan. |
-| Basic Path | 1. Sistem menampilkan daftar dokumen yang diunggah oleh calon siswa yang perlu diverifikasi <br> 2. Panitia PSB memilih dokumen untuk diverifikasi <br> 3. Panitia PSB memeriksa kelengkapan dan keaslian dokumen yang dipilih <br> 4. Jika dokumen lengkap dan sesuai, panitia PSB mengubah status dokumen menjadi "Diterimma" dan mencatat tanggal verifikasi <br> 5. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah diterima <6> Data verifikasi disimpan dalam basis data. |
+| Basic Path | 1. Sistem menampilkan daftar dokumen yang diunggah oleh calon siswa yang perlu diverifikasi <br> 2. Panitia PSB memilih dokumen untuk diverifikasi <br> 3. Panitia PSB memeriksa kelengkapan dan keaslian dokumen yang dipilih <br> 4. Jika dokumen lengkap dan sesuai, panitia PSB mengubah status dokumen menjadi "Diterimma" dan mencatat tanggal verifikasi <br> 5. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah diterima <6> Data verifikasi disimpan dalam basis data |
 | Alternative | Tidak ada |
 | Post Condition | 1. Status dokumen diperbarui dalam sistem <br> 2. Notifikasi dikirim kepada calon siswa <br> 3. Data verifikasi disimpan dalam basis data |
-| Exception Push | 1. Jika dokumen tidak lengkap atau tidak sesuai, sistem mengubah status dokumen menjadi "Perlu Klarifikasi" dan mencatat tanggal verifikasi <br> 2. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen perlu klarifikasi <br> 3. Jika dokumen tidak valid, sistem mengubah status dokumen menjadi "Ditolak" dan mencatat tanggal verifikasi. <br> 4.Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah ditolak. |
+| Exception Push | 1. Jika dokumen tidak lengkap atau tidak sesuai, sistem mengubah status dokumen menjadi "Perlu Klarifikasi" dan mencatat tanggal verifikasi <br> 2. Sistem mengirim notifikasi kepada calon siswa bahwa dokumen perlu klarifikasi <br> 3. Jika dokumen tidak valid, sistem mengubah status dokumen menjadi "Ditolak" dan mencatat tanggal verifikasi. <br> 4.Sistem mengirim notifikasi kepada calon siswa bahwa dokumen mereka telah ditolak |
 
 **3.2.4 Panitia PSB Mengelola Status Pendaftaran**
 
@@ -421,7 +421,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.4, Mengelola Status Pendaftaran |
 | Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
 | Precondition | Panitia PSB memiliki hak akses untuk mengelola status pendaftaran.
-| Basic Path | 1. Panitia PSB membuka daftar status pendaftaran calon siswa <br> 2. Panitia PSB memilih pendaftaran calon siswa tertentu <br> 3. Panitia PSB memeriksa status pendaftaran saat ini <br> 4. Panitia PSB memutuskan untuk mengubah status pendaftaran menjadi "Dalam Proses," "Diterima," atau "Ditolak." <br> 5. Sistem otomatis mengirimkan notifikasi kepada calon siswa mengenai perubahan status.
+| Basic Path | 1. Panitia PSB membuka daftar status pendaftaran calon siswa <br> 2. Panitia PSB memilih pendaftaran calon siswa tertentu <br> 3. Panitia PSB memeriksa status pendaftaran saat ini <br> 4. Panitia PSB memutuskan untuk mengubah status pendaftaran menjadi "Dalam Proses," "Diterima," atau "Ditolak." <br> 5. Sistem otomatis mengirimkan notifikasi kepada calon siswa mengenai perubahan status |
 | Alternative | Tidak ada |
 | Post-Condition | Status pendaftaran calon siswa diupdate sesuai dengan keputusan panitia PSB |
 | Exception Push | Jika terjadi kesalahan saat mengubah status, sistem memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk penanganan lebih lanjut |
@@ -434,7 +434,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.5, Seleksi Siswa |
 | Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
 | Precondition | Data calon siswa dan dokumen pendaftaran harus sudah tersedia dalam sistem. |
-| Basic Path | 1. Sistem menampilkan daftar calon siswa yang telah mendaftar <br> 2. Panitia PSB memilih calon siswa yang akan diproses seleksi <br> 3. Panitia PSB melakukan proses seleksi sesuai dengan kriteria yang ditentukan <br> 4. Data hasil seleksi disimpan dalam basis data. |
+| Basic Path | 1. Sistem menampilkan daftar calon siswa yang telah mendaftar <br> 2. Panitia PSB memilih calon siswa yang akan diproses seleksi <br> 3. Panitia PSB melakukan proses seleksi sesuai dengan kriteria yang ditentukan <br> 4. Data hasil seleksi disimpan dalam basis data |
 | Alternative | Tidak ada |
 | Post Condition | Status pendaftaran calon siswa diperbarui dalam sistem |
 | Exception Push | Jika ada kesalahan sistem atau masalah teknis saat memproses seleksi, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya |
@@ -447,8 +447,8 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, Mengelola Pengumuman Hasil Seleksi |
 | Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II |
 | Precondition | Hasil seleksi calon siswa harus sudah diproses dan disimpan dalam sistem. |
-| Basic Path |1. Sistem menampilkan daftar calon siswa yang telah menjalani proses seleksi <br> 2. Panitia PSB memilih calon siswa yang hasil seleksinya akan diumumkan <br> 3. Panitia PSB memasukkan informasi pengumuman, seperti apakah calon siswa diterima, ditolak, atau sedang diproses <br> 4. Sistem memperbarui status pendaftaran calon siswa sesuai dengan hasil pengumuman <br> 5. Sistem mengirim notifikasi kepada calon siswa yang hasil seleksinya diumumkan <br> 6. Data hasil pengumuman disimpan dalam basis data. |
-| Alternative | 1. Jika calon siswa diterima, sistem mengirim notifikasi kepada mereka dengan instruksi selanjutnya <br> 2. Jika calon siswa ditolak, sistem mengirim notifikasi dengan pemberitahuan penolakan dan alasan jika diperlukan <br> 3. Jika calon siswa berada dalam daftar tunggu, sistem mengirim notifikasi tentang status mereka dan instruksi selanjutnya.|
+| Basic Path |1. Sistem menampilkan daftar calon siswa yang telah menjalani proses seleksi <br> 2. Panitia PSB memilih calon siswa yang hasil seleksinya akan diumumkan <br> 3. Panitia PSB memasukkan informasi pengumuman, seperti apakah calon siswa diterima, ditolak, atau sedang diproses <br> 4. Sistem memperbarui status pendaftaran calon siswa sesuai dengan hasil pengumuman <br> 5. Sistem mengirim notifikasi kepada calon siswa yang hasil seleksinya diumumkan <br> 6. Data hasil pengumuman disimpan dalam basis data |
+| Alternative | 1. Jika calon siswa diterima, sistem mengirim notifikasi kepada mereka dengan instruksi selanjutnya <br> 2. Jika calon siswa ditolak, sistem mengirim notifikasi dengan pemberitahuan penolakan dan alasan jika diperlukan <br> 3. Jika calon siswa berada dalam daftar tunggu, sistem mengirim notifikasi tentang status mereka dan instruksi selanjutnya |
 | Post Condition | 1. Status pendaftaran calon siswa diperbarui dalam sistem <br> 2. Notifikasi dikirim kepada calon siswa |
 | Exception Push | Jika ada kesalahan sistem atau masalah teknis saat memproses seleksi, sistem harus memberikan notifikasi kepada panitia PSB dan mencatat masalah tersebut untuk tindakan selanjutnya | 
 
@@ -465,13 +465,18 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Calon siswa dapat login dan mengakses website Sistem Informasi Penerimaan Siswa Baru SMP Al-Azhar Syifa Budi Pekanbaru II|
 | Exception Push | Username dan password salah |
 
-**3.2.8 Calon Siswa Mengisi Formulir Pendaftaran Calon Siswa**
+**3.2.8 Calon Siswa Mengisi Formulir Pendaftaran**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Formulir Pendaftaran Calon Siswa |
-| Xref | Bagian 2.2.8, Calon Siswa Mengisi Formulir Pendaftaran Calon Siswa |
+| Xref | Bagian 2.2.8, Calon Siswa Mengisi Formulir Pendaftaran |
 | Trigger | Membuka website Sistem Informasi Penerimaan Siswa Baru SMP AL-Azhar Syifa Budi Pekanbaru II|
+| Precondition | Calon siswa sudah mengakses formulir pendaftaran |
+| Basic Path | 1. Calon siswa membuka formulir pendaftaran <br> 2. Calon siswa mengisi data pribadi, seperti nama, alamat, tempat dan tanggal lahir, dll <br> 3. Calon siswa meninjau kembali informasi yang diisi <br> 4. Calon siswa mengonfirmasi bahwa data yang diisi benar dan lengkap <br> 5. Calon siswa mengirimkan formulir pendaftaran |
+| Alternative | Tidak ada |
+| Post-Condition | Informasi formulir pendaftaran disimpan dalam sistem |
+| Exception Push | Jika ada gangguan koneksi internet saat mengirimkan formulir, sistem memberikan notifikasi kepada calon siswa dan menyarankan untuk mencoba lagi atau memberikan bantuan teknis |
 
 **3.2.9 Calon Siswa Mengunggah Dokumen Pendaftaran**
 
