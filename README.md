@@ -67,13 +67,13 @@ Sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II memi
      
 |  |  |
 |--|--|
+| ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/login%20admin.png) Pada halaman login admin diminta untuk mengisi username dan password
+| ![enter image description here](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/beranda%20admin.png) Setelah login admin akan diarahkan kehalaman beranda
 | ![enter image description here]()
 | ![enter image description here]()
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png)
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png)
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png)
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png)
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png)
+| ![enter image description here]()
+| ![enter image description here]()
+| ![enter image description here]()
    - **Mockup Calon Siswa ( Website )**
      
 |  |  |
