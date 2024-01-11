@@ -180,7 +180,7 @@ Xref: Bagian 3.2.3, Mengelola Verifikasi Dokumen
 Use Case : Mengelola Status Pendaftaran
 
 Diagram : 
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-12.jpg)
+![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/Usecase-Page-22.drawio.png)
 
 Deskripsi Singkat  
 Panitia PSB dapat mengelola status pendaftaran calon siswa baru dalam sistem. Langkah-langkah ini mencakup pembaruan status, pemantauan perkembangan pendaftaran, dan memberikan akses kepada panitia untuk melihat dan mengelola data pendaftaran.
