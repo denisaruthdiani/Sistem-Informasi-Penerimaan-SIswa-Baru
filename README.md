@@ -1,4 +1,4 @@
-![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/cover.png)
+ ![](https://github.com/denisaruthdiani/Sistem-Informasi-Penerimaan-Siswa-Baru/blob/main/cover.png)
 
 **BAB I Pendahuluan**
 ----------
