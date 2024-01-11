@@ -64,10 +64,12 @@ Sistem informasi penerimaan siswa baru SMP Al-Azhar Syifa Budi Pekanbaru II memi
 
 **2.1.2 Antarmuka Pengguna**
    - **Mockup Admin ( Website )**
+     
 |  |  |
 |--|--|
 
    - **Mockup Calon Siswa ( Website )**
+     
 |  |  |
 |--|--|
 
